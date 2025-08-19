@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:netherrack"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NNN",
+    " Q "
+  ],
+  "result": {
+    "count": 3,
+    "id": "not_enough_variants:netherrack_sign"
+  }
+}

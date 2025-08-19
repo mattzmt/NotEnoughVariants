@@ -1,0 +1,22 @@
+{
+  "values": [
+    "not_enough_variants:netherrack_door",
+    "not_enough_variants:netherrack_wall",
+    "not_enough_variants:netherrack_sign",
+    "not_enough_variants:netherrack_wall_sign",
+    "not_enough_variants:netherrack_fence",
+    "not_enough_variants:netherrack_fence_gate",
+    "not_enough_variants:netherrack_stairs",
+    "not_enough_variants:netherrack_slab",
+    "not_enough_variants:netherrack_trapdoor",
+    "not_enough_variants:netherrack_pressure_plate",
+    "not_enough_variants:netherrack_button",
+    "not_enough_variants:stone_door",
+    "not_enough_variants:stone_wall",
+    "not_enough_variants:stone_sign",
+    "not_enough_variants:stone_wall_sign",
+    "not_enough_variants:stone_fence",
+    "not_enough_variants:stone_fence_gate",
+    "not_enough_variants:stone_trapdoor"
+  ]
+}

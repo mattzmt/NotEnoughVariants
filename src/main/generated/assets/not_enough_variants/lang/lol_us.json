@@ -1,0 +1,14 @@
+{
+  "block.not_enough_variants.netherrack_button": "Netherrack Pressablz",
+  "block.not_enough_variants.netherrack_door": "Netherrack Dor",
+  "block.not_enough_variants.netherrack_fence": "Netherrack Fens",
+  "block.not_enough_variants.netherrack_fence_gate": "Netherrack Gaet",
+  "block.not_enough_variants.netherrack_pressure_plate": "Netherrack Prseure Pleitz",
+  "block.not_enough_variants.netherrack_sign": "Netherrack Syne",
+  "block.not_enough_variants.netherrack_slab": "Netherrack Sleb",
+  "block.not_enough_variants.netherrack_stairs": "Netherrack Stairz",
+  "block.not_enough_variants.netherrack_trapdoor": "Netherrack Trepnoor",
+  "block.not_enough_variants.netherrack_wall": "Netherrack Wal",
+  "item.not_enough_variants.bush_hammer": "Brakey Hammur Thing",
+  "itemGroup.not_enough_variants.nev_group": "No Enuf Vareejantz"
+}

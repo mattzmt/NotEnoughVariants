@@ -1,0 +1,14 @@
+{
+  "block.not_enough_variants.netherrack_button": "Knob o' netherrack",
+  "block.not_enough_variants.netherrack_door": "Door o' netherrack",
+  "block.not_enough_variants.netherrack_fence": "Picket o' netherrack",
+  "block.not_enough_variants.netherrack_fence_gate": "Picket gate o' netherrack",
+  "block.not_enough_variants.netherrack_pressure_plate": "Booby trap o' netherrack",
+  "block.not_enough_variants.netherrack_sign": "Seal o' netherrack",
+  "block.not_enough_variants.netherrack_slab": "Slab o' netherrack",
+  "block.not_enough_variants.netherrack_stairs": "Stairs o' netherrack",
+  "block.not_enough_variants.netherrack_trapdoor": "Hatch o' netherrack",
+  "block.not_enough_variants.netherrack_wall": "Wall o' netherrack",
+  "item.not_enough_variants.bush_hammer": "Bush Hammer",
+  "itemGroup.not_enough_variants.nev_group": "Nay Enough Variants Fo' Meself"
+}

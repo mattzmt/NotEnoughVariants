@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:netherrack"
+    },
+    "S": {
+      "item": "not_enough_variants:netherrack_slab"
+    }
+  },
+  "pattern": [
+    "NSN",
+    "NSN"
+  ],
+  "result": {
+    "count": 4,
+    "id": "not_enough_variants:netherrack_fence"
+  }
+}

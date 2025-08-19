@@ -1,0 +1,41 @@
+{
+  "netherrack_door_close": {
+    "subtitle": "subtitles.block.door.toggle",
+    "sounds": [
+      "not_enough_variants:netherrack_door_close1",
+      "not_enough_variants:netherrack_door_close2"
+    ]
+  },
+  "netherrack_door_open": {
+    "subtitle": "subtitles.block.door.toggle",
+    "sounds": [
+      "not_enough_variants:netherrack_door_open1",
+      "not_enough_variants:netherrack_door_open2"
+    ]
+  },
+  "netherrack_trapdoor_close": {
+    "subtitle": "subtitles.block.trapdoor.toggle",
+    "sounds": [
+      "not_enough_variants:netherrack_trapdoor_close"
+    ]
+  },
+  "netherrack_trapdoor_open": {
+    "subtitle": "subtitles.block.trapdoor.toggle",
+    "sounds": [
+      "not_enough_variants:netherrack_trapdoor_open"
+    ]
+  },
+  "netherrack_gate_close": {
+    "subtitle": "subtitles.block.fence_gate.toggle",
+    "sounds": [
+      "not_enough_variants:netherrack_gate_close"
+    ]
+  },
+  "netherrack_gate_open": {
+    "subtitle": "subtitles.block.fence_gate.toggle",
+    "sounds": [
+      "not_enough_variants:netherrack_gate_open1",
+      "not_enough_variants:netherrack_gate_open2"
+    ]
+  }
+}

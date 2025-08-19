@@ -1,0 +1,20 @@
+{
+  "block.not_enough_variants.netherrack_button": "Buttuna tal-Ġebel tan-Nether",
+  "block.not_enough_variants.netherrack_door": "Bieb tal-Ġebel tan-Nether",
+  "block.not_enough_variants.netherrack_fence": "Ċint tal-Ġebel tan-Nether",
+  "block.not_enough_variants.netherrack_fence_gate": "Grada tal-Ġebel tan-Nether",
+  "block.not_enough_variants.netherrack_pressure_plate": "Pjanċa tal-Pressjoni tal-Ġebel tan-Nether",
+  "block.not_enough_variants.netherrack_sign": "Tabella tal-Ġebel tan-Nether",
+  "block.not_enough_variants.netherrack_slab": "Ċangatura tal-Ġebel tan-Nether",
+  "block.not_enough_variants.netherrack_stairs": "Taraġ tal-Ġebel tan-Nether",
+  "block.not_enough_variants.netherrack_trapdoor": "Bokkaport tal-Ġebel tan-Nether",
+  "block.not_enough_variants.netherrack_wall": "Ħajt tal-Ġebel tan-Nether",
+  "block.not_enough_variants.stone_door": "Bieb tal-Ġebel",
+  "block.not_enough_variants.stone_fence": "Ċint tal-Ġebel",
+  "block.not_enough_variants.stone_fence_gate": "Grada tal-Ġebel",
+  "block.not_enough_variants.stone_sign": "Tabella tal-Ġebel",
+  "block.not_enough_variants.stone_trapdoor": "Bokkaport tal-Ġebel",
+  "block.not_enough_variants.stone_wall": "Ħajt tal-Ġebel",
+  "item.not_enough_variants.bush_hammer": "Martell tat-Tifrik",
+  "itemGroup.not_enough_variants.nev_group": "Mhux Biżżejjed Varjanti"
+}

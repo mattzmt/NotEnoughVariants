@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "N": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "pattern": [
+    "NN",
+    "NG",
+    "NN"
+  ],
+  "result": {
+    "count": 3,
+    "id": "not_enough_variants:netherrack_door"
+  }
+}

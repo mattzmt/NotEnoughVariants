@@ -1,0 +1,14 @@
+{
+  "block.not_enough_variants.netherrack_button": "Netherrack Button",
+  "block.not_enough_variants.netherrack_door": "Netherrack Door",
+  "block.not_enough_variants.netherrack_fence": "Small Netherrack Hedge",
+  "block.not_enough_variants.netherrack_fence_gate": "Netherrack Hedge Gate",
+  "block.not_enough_variants.netherrack_pressure_plate": "Netherrack Pressure Plate",
+  "block.not_enough_variants.netherrack_sign": "Netherrack Sign",
+  "block.not_enough_variants.netherrack_slab": "Netherrack Slab",
+  "block.not_enough_variants.netherrack_stairs": "Netherrack Stairs",
+  "block.not_enough_variants.netherrack_trapdoor": "Netherrack Hatch",
+  "block.not_enough_variants.netherrack_wall": "Netherrack Hedge",
+  "item.not_enough_variants.bush_hammer": "Bush Hammer",
+  "itemGroup.not_enough_variants.nev_group": "Enough, Or Not Enough?"
+}

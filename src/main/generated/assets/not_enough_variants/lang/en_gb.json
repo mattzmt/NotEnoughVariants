@@ -1,0 +1,20 @@
+{
+  "block.not_enough_variants.netherrack_button": "Netherrack Button",
+  "block.not_enough_variants.netherrack_door": "Netherrack Door",
+  "block.not_enough_variants.netherrack_fence": "Netherrack Fence",
+  "block.not_enough_variants.netherrack_fence_gate": "Netherrack Fence Gate",
+  "block.not_enough_variants.netherrack_pressure_plate": "Netherrack Pressure Plate",
+  "block.not_enough_variants.netherrack_sign": "Netherrack Sign",
+  "block.not_enough_variants.netherrack_slab": "Netherrack Slab",
+  "block.not_enough_variants.netherrack_stairs": "Netherrack Stairs",
+  "block.not_enough_variants.netherrack_trapdoor": "Netherrack Trapdoor",
+  "block.not_enough_variants.netherrack_wall": "Netherrack Wall",
+  "block.not_enough_variants.stone_door": "Stone Door",
+  "block.not_enough_variants.stone_fence": "Stone Fence",
+  "block.not_enough_variants.stone_fence_gate": "Stone Fence Gate",
+  "block.not_enough_variants.stone_sign": "Stone Sign",
+  "block.not_enough_variants.stone_trapdoor": "Stone Trapdoor",
+  "block.not_enough_variants.stone_wall": "Stone Wall",
+  "item.not_enough_variants.bush_hammer": "Bush Hammer",
+  "itemGroup.not_enough_variants.nev_group": "Not Enough Variants"
+}

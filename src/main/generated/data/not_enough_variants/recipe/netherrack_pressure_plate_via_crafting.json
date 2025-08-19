@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "N": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "pattern": [
+    "NN "
+  ],
+  "result": {
+    "count": 1,
+    "id": "not_enough_variants:netherrack_pressure_plate"
+  }
+}
