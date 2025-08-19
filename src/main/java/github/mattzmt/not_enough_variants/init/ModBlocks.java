@@ -24,7 +24,7 @@ public class ModBlocks {
 
     public static final WallBlock NETHERRACK_WALL = registerWithItem(
             "netherrack_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.NETHERRACK).solid()));
+            newModWall(Blocks.NETHERRACK));
 
     public static final FenceBlock NETHERRACK_FENCE = registerWithItem(
             "netherrack_fence",
@@ -48,132 +48,53 @@ public class ModBlocks {
 
     public static final PressurePlateBlock NETHERRACK_PRESSURE_PLATE = registerWithItem(
             "netherrack_pressure_plate",
-            new PressurePlateBlock(
-                    ModBlockSetType.NETHERRACK,
-                    AbstractBlock.Settings.create()
-                            .mapColor(Blocks.NETHERRACK.getDefaultMapColor())
-                            .solid()
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .requiresTool()
-                            .noCollision()
-                            .strength(0.4f)
-                            .pistonBehavior(PistonBehavior.DESTROY)
-            ));
+            newModPressurePlate(ModBlockSetType.NETHERRACK, Blocks.NETHERRACK, true, 0.4f));
 
     public static final Block NETHERRACK_BUTTON = registerWithItem(
             "netherrack_button",
-            new ButtonBlock(
-                    ModBlockSetType.NETHERRACK,
-                    10,
-                    AbstractBlock.Settings.create()
-                            .mapColor(Blocks.NETHERRACK.getDefaultMapColor())
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .noCollision()
-                            .pistonBehavior(PistonBehavior.DESTROY)
-                            .strength(0.4f)
-            ));
+            newModButton(ModBlockSetType.NETHERRACK, 10, Blocks.NETHERRACK, 0.4f));
 
     private static final Identifier NETHERRACK_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/netherrack");
 
     public static final TerraformSignBlock NETHERRACK_SIGN = register(
             "netherrack_sign",
-            new TerraformSignBlock(
-                    NETHERRACK_SIGN_TEXTURE,
-                    AbstractBlock.Settings.create()
-                            .mapColor(Blocks.NETHERRACK.getDefaultMapColor())
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .strength(0.4f)
-                            .solid()
-                            .noCollision()
-                            .sounds(BlockSoundGroup.NETHERRACK)
-            ));
+            newModSign(NETHERRACK_SIGN_TEXTURE, Blocks.NETHERRACK, 0.4f, false, BlockSoundGroup.NETHERRACK));
 
     public static final TerraformWallSignBlock NETHERRACK_WALL_SIGN = register(
             "netherrack_wall_sign",
-            new TerraformWallSignBlock(
-                    NETHERRACK_SIGN_TEXTURE,
-                    AbstractBlock.Settings.copy(ModBlocks.NETHERRACK_SIGN)
-            ));
+            newModWallSign(NETHERRACK_SIGN_TEXTURE, ModBlocks.NETHERRACK_SIGN));
     //END OF NETHERRACK VARIANTS
 
     //STONE VARIANTS
     public static final DoorBlock STONE_DOOR = registerWithItem(
             "stone_door",
-            new DoorBlock(
-                    ModBlockSetType.STONE,
-                    AbstractBlock.Settings.create()
-                            .mapColor(Blocks.STONE.getDefaultMapColor())
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .strength(2.5f,6)
-                            .nonOpaque()
-                            .pistonBehavior(PistonBehavior.DESTROY)
-            ));
+            newModDoor(ModBlockSetType.STONE, Blocks.STONE, true, 2.5f, 6, false));
 
     public static final WallBlock STONE_WALL = registerWithItem(
             "stone_wall",
-            new WallBlock(AbstractBlock.Settings.create()
-                    .mapColor(Blocks.STONE.getDefaultMapColor())
-                    .instrument(NoteBlockInstrument.BASEDRUM)
-                    .strength(1.5f,6)
-                    .requiresTool()
-                    .sounds(BlockSoundGroup.STONE)
-            ));
+            newModWall(Blocks.STONE));
 
     public static final FenceBlock STONE_FENCE = registerWithItem(
             "stone_fence",
-            new FenceBlock(
-                    AbstractBlock.Settings.create()
-                            .mapColor(Blocks.STONE.getDefaultMapColor())
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .strength(1.5f,6)
-                            .requiresTool()
-                            .sounds(BlockSoundGroup.STONE)
-            ));
+            newModFence(Blocks.STONE, true, 1.5f, 6, BlockSoundGroup.STONE, false));
 
     public static final FenceGateBlock STONE_FENCE_GATE = registerWithItem(
             "stone_fence_gate",
-            new FenceGateBlock(
-                    ModWoodType.STONE,
-                    AbstractBlock.Settings.create()
-                            .mapColor(Blocks.STONE.getDefaultMapColor())
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .strength(1.5f,6)
-                            .requiresTool()
-            ));
+            newModGate(ModWoodType.STONE, Blocks.STONE, true, 1.5f, 6, false));
 
     public static final TrapdoorBlock STONE_TRAPDOOR = registerWithItem(
             "stone_trapdoor",
-            new TrapdoorBlock(
-                    ModBlockSetType.STONE,
-                    AbstractBlock.Settings.create()
-                            .mapColor(Blocks.STONE.getDefaultMapColor())
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .strength(2.5f,6)
-                            .requiresTool()
-                            .allowsSpawning(Blocks::never)
-            ));
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.STONE, true, 2.5f, 6));
 
     private static final Identifier STONE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/stone");
 
     public static final TerraformSignBlock STONE_SIGN = register(
             "stone_sign",
-            new TerraformSignBlock(
-                    STONE_SIGN_TEXTURE,
-                    AbstractBlock.Settings.create()
-                            .mapColor(Blocks.STONE.getDefaultMapColor())
-                            .instrument(NoteBlockInstrument.BASEDRUM)
-                            .strength(1,4)
-                            .solid()
-                            .noCollision()
-                            .sounds(BlockSoundGroup.STONE)
-            ));
+            newModSign(STONE_SIGN_TEXTURE, Blocks.STONE, 1, 4, false, BlockSoundGroup.STONE));
 
     public static final TerraformWallSignBlock STONE_WALL_SIGN = register(
             "stone_wall_sign",
-            new TerraformWallSignBlock(
-                    STONE_SIGN_TEXTURE,
-                    AbstractBlock.Settings.copy(ModBlocks.STONE_SIGN)
-            ));
+            newModWallSign(STONE_SIGN_TEXTURE, ModBlocks.STONE_SIGN));
     //END OF STONE VARIANTS
 
     public static <T extends Block> T register(String name, T block) {
@@ -220,6 +141,10 @@ public class ModBlocks {
             settings.burnable();
 
         return new DoorBlock(blockSetType, settings);
+    }
+
+    private static WallBlock newModWall(Block base) {
+        return new WallBlock(AbstractBlock.Settings.copy(base).solid());
     }
 
     private static FenceBlock newModFence(Block base, boolean requiresTool, float hardness, float resistance, BlockSoundGroup blockSoundGroup, boolean isBurnable) {
@@ -348,6 +273,92 @@ public class ModBlocks {
             settings.requiresTool();
 
         return new TrapdoorBlock(blockSetType, settings);
+    }
+
+    private static PressurePlateBlock newModPressurePlate(BlockSetType blockSetType, Block base, boolean requiresTool, float hardness, float resistance) {
+        AbstractBlock.Settings settings = AbstractBlock.Settings.create()
+                .mapColor(base.getDefaultMapColor())
+                .instrument(base.getDefaultState().getInstrument())
+                .solid()
+                .noCollision()
+                .strength(hardness, resistance)
+                .pistonBehavior(PistonBehavior.DESTROY);
+
+        if (requiresTool)
+            settings.requiresTool();
+
+        return new PressurePlateBlock(blockSetType, settings);
+    }
+
+    private static PressurePlateBlock newModPressurePlate(BlockSetType blockSetType, Block base, boolean requiresTool, float strength) {
+        AbstractBlock.Settings settings = AbstractBlock.Settings.create()
+                .mapColor(base.getDefaultMapColor())
+                .instrument(base.getDefaultState().getInstrument())
+                .solid()
+                .noCollision()
+                .strength(strength)
+                .pistonBehavior(PistonBehavior.DESTROY);
+
+        if (requiresTool)
+            settings.requiresTool();
+
+        return new PressurePlateBlock(blockSetType, settings);
+    }
+
+    private static ButtonBlock newModButton(BlockSetType blockSetType, int pressTicks, Block base, float hardness, float resistance) {
+        AbstractBlock.Settings settings = AbstractBlock.Settings.create()
+                .mapColor(base.getDefaultMapColor())
+                .instrument(base.getDefaultState().getInstrument())
+                .noCollision()
+                .strength(hardness, resistance)
+                .pistonBehavior(PistonBehavior.DESTROY);
+
+        return new ButtonBlock(blockSetType, pressTicks, settings);
+    }
+
+    private static ButtonBlock newModButton(BlockSetType blockSetType, int pressTicks, Block base, float strength) {
+        AbstractBlock.Settings settings = AbstractBlock.Settings.create()
+                .mapColor(base.getDefaultMapColor())
+                .instrument(base.getDefaultState().getInstrument())
+                .noCollision()
+                .strength(strength)
+                .pistonBehavior(PistonBehavior.DESTROY);
+
+        return new ButtonBlock(blockSetType, pressTicks, settings);
+    }
+
+    private static TerraformSignBlock newModSign(Identifier texture, Block base, float hardness, float resistance, boolean isBurnable, BlockSoundGroup blockSoundGroup) {
+        AbstractBlock.Settings settings = AbstractBlock.Settings.create()
+                .mapColor(base.getDefaultMapColor())
+                .instrument(base.getDefaultState().getInstrument())
+                .solid()
+                .noCollision()
+                .strength(hardness, resistance)
+                .sounds(blockSoundGroup);
+
+        if (isBurnable)
+            settings.burnable();
+
+        return new TerraformSignBlock(texture, settings);
+    }
+
+    private static TerraformSignBlock newModSign(Identifier texture, Block base, float strength, boolean isBurnable, BlockSoundGroup blockSoundGroup) {
+        AbstractBlock.Settings settings = AbstractBlock.Settings.create()
+                .mapColor(base.getDefaultMapColor())
+                .instrument(base.getDefaultState().getInstrument())
+                .solid()
+                .noCollision()
+                .strength(strength)
+                .sounds(blockSoundGroup);
+
+        if (isBurnable)
+            settings.burnable();
+
+        return new TerraformSignBlock(texture, settings);
+    }
+
+    private static TerraformWallSignBlock newModWallSign(Identifier texture, Block base) {
+        return new TerraformWallSignBlock(texture, AbstractBlock.Settings.copy(base));
     }
 
     public static void load() {}
