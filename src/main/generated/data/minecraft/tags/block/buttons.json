@@ -1,5 +1,8 @@
 {
   "values": [
-    "not_enough_variants:netherrack_button"
+    "not_enough_variants:netherrack_button",
+    "not_enough_variants:cobblestone_button",
+    "not_enough_variants:granite_button",
+    "not_enough_variants:mossy_cobblestone_button"
   ]
 }

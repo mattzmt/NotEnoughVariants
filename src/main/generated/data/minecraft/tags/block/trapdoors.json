@@ -1,6 +1,9 @@
 {
   "values": [
     "not_enough_variants:netherrack_trapdoor",
-    "not_enough_variants:stone_trapdoor"
+    "not_enough_variants:stone_trapdoor",
+    "not_enough_variants:cobblestone_trapdoor",
+    "not_enough_variants:granite_trapdoor",
+    "not_enough_variants:mossy_cobblestone_trapdoor"
   ]
 }

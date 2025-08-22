@@ -1,12 +1,10 @@
-package github.mattzmt.not_enough_variants.init;
+package github.mattzmt.not_enough_variants.block;
 
 import com.terraformersmc.terraform.sign.api.block.TerraformSignBlock;
 import com.terraformersmc.terraform.sign.api.block.TerraformWallSignBlock;
 import github.mattzmt.not_enough_variants.NotEnoughVariants;
-import github.mattzmt.not_enough_variants.list.ModBlockSetType;
-import github.mattzmt.not_enough_variants.list.ModWoodType;
+import github.mattzmt.not_enough_variants.item.ModItems;
 import net.minecraft.block.*;
-import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -32,7 +30,7 @@ public class ModBlocks {
 
     public static final FenceGateBlock NETHERRACK_FENCE_GATE = registerWithItem(
             "netherrack_fence_gate",
-            newModGate(ModWoodType.NETHERRACK, Blocks.NETHERRACK, true, 0.4f, false));
+            newModFenceGate(ModWoodType.NETHERRACK, Blocks.NETHERRACK, true, 0.4f, false));
 
     public static final StairsBlock NETHERRACK_STAIRS = registerWithItem(
             "netherrack_stairs",
@@ -48,7 +46,7 @@ public class ModBlocks {
 
     public static final PressurePlateBlock NETHERRACK_PRESSURE_PLATE = registerWithItem(
             "netherrack_pressure_plate",
-            newModPressurePlate(ModBlockSetType.NETHERRACK, Blocks.NETHERRACK, true, 0.4f));
+            newModPressurePlate(ModBlockSetType.NETHERRACK, Blocks.NETHERRACK, 0.4f));
 
     public static final Block NETHERRACK_BUTTON = registerWithItem(
             "netherrack_button",
@@ -63,7 +61,6 @@ public class ModBlocks {
     public static final TerraformWallSignBlock NETHERRACK_WALL_SIGN = register(
             "netherrack_wall_sign",
             newModWallSign(NETHERRACK_SIGN_TEXTURE, ModBlocks.NETHERRACK_SIGN));
-    //END OF NETHERRACK VARIANTS
 
     //STONE VARIANTS
     public static final DoorBlock STONE_DOOR = registerWithItem(
@@ -80,7 +77,7 @@ public class ModBlocks {
 
     public static final FenceGateBlock STONE_FENCE_GATE = registerWithItem(
             "stone_fence_gate",
-            newModGate(ModWoodType.STONE, Blocks.STONE, true, 1.5f, 6, false));
+            newModFenceGate(ModWoodType.STONE, Blocks.STONE, true, 1.5f, 6, false));
 
     public static final TrapdoorBlock STONE_TRAPDOOR = registerWithItem(
             "stone_trapdoor",
@@ -90,12 +87,161 @@ public class ModBlocks {
 
     public static final TerraformSignBlock STONE_SIGN = register(
             "stone_sign",
-            newModSign(STONE_SIGN_TEXTURE, Blocks.STONE, 1, 4, false, BlockSoundGroup.STONE));
+            newModSign(STONE_SIGN_TEXTURE, Blocks.STONE, 1.5f, 2, false, BlockSoundGroup.STONE));
 
     public static final TerraformWallSignBlock STONE_WALL_SIGN = register(
             "stone_wall_sign",
             newModWallSign(STONE_SIGN_TEXTURE, ModBlocks.STONE_SIGN));
-    //END OF STONE VARIANTS
+
+    //COBBLESTONE VARIANTS
+    public static final DoorBlock COBBLESTONE_DOOR = registerWithItem(
+            "cobblestone_door",
+            newModDoor(ModBlockSetType.STONE, Blocks.COBBLESTONE, true, 3, 6, false));
+
+    public static final FenceBlock COBBLESTONE_FENCE = registerWithItem(
+            "cobblestone_fence",
+            newModFence(Blocks.COBBLESTONE, true, 2, 6, BlockSoundGroup.STONE, false));
+
+    public static final FenceGateBlock COBBLESTONE_FENCE_GATE = registerWithItem(
+            "cobblestone_fence_gate",
+            newModFenceGate(ModWoodType.STONE, Blocks.COBBLESTONE, true, 2, 6, false));
+
+    public static final TrapdoorBlock COBBLESTONE_TRAPDOOR = registerWithItem(
+            "cobblestone_trapdoor",
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.COBBLESTONE, true, 3, 6));
+
+    public static final PressurePlateBlock COBBLESTONE_PRESSURE_PLATE = registerWithItem(
+            "cobblestone_pressure_plate",
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.COBBLESTONE, 0.5f));
+
+    public static final ButtonBlock COBBLESTONE_BUTTON = registerWithItem(
+            "cobblestone_button",
+            newModButton(ModBlockSetType.STONE, 25, Blocks.COBBLESTONE, 0.5f));
+
+    public static final Identifier COBBLESTONE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/cobblestone");
+
+    public static final TerraformSignBlock COBBLESTONE_SIGN = register(
+            "cobblestone_sign",
+            newModSign(COBBLESTONE_SIGN_TEXTURE, Blocks.COBBLESTONE, 2, false, BlockSoundGroup.STONE));
+
+    public static final TerraformWallSignBlock COBBLESTONE_WALL_SIGN = register(
+            "cobblestone_wall_sign",
+            newModWallSign(COBBLESTONE_SIGN_TEXTURE, ModBlocks.COBBLESTONE_SIGN));
+
+    //GRANITE VARIANTS
+    public static final DoorBlock GRANITE_DOOR = registerWithItem(
+            "granite_door",
+            newModDoor(ModBlockSetType.STONE, Blocks.GRANITE, true, 2.5f, 6, false));
+
+    public static final FenceBlock GRANITE_FENCE = registerWithItem(
+            "granite_fence",
+            newModFence(Blocks.GRANITE, true, 1.5f, 6, BlockSoundGroup.STONE, false));
+    
+    public static final FenceGateBlock GRANITE_FENCE_GATE = registerWithItem(
+            "granite_fence_gate",
+            newModFenceGate(ModWoodType.STONE, Blocks.GRANITE, true, 1.5f, 6, false));
+
+    public static final TrapdoorBlock GRANITE_TRAPDOOR = registerWithItem(
+            "granite_trapdoor",
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.GRANITE, true, 2.5f, 6));
+
+    public static final PressurePlateBlock GRANITE_PRESSURE_PLATE = registerWithItem(
+            "granite_pressure_plate",
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.GRANITE, 0.5f));
+
+    public static final ButtonBlock GRANITE_BUTTON = registerWithItem(
+            "granite_button",
+            newModButton(ModBlockSetType.STONE, 20, Blocks.GRANITE, 0.5f));
+
+    public static final Identifier GRANITE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/granite");
+
+    public static final TerraformSignBlock GRANITE_SIGN = register(
+            "granite_sign",
+            newModSign(GRANITE_SIGN_TEXTURE, Blocks.GRANITE, 1.5f, 2, false, BlockSoundGroup.STONE));
+
+    public static final TerraformWallSignBlock GRANITE_WALL_SIGN = register(
+            "granite_wall_sign",
+            newModWallSign(GRANITE_SIGN_TEXTURE, ModBlocks.GRANITE_SIGN));
+
+    //PLANKS
+    public static final WallBlock OAK_WALL = registerWithItem(
+            "oak_wall",
+            newModWall(Blocks.OAK_PLANKS));
+
+    public static final WallBlock SPRUCE_WALL = registerWithItem(
+            "spruce_wall",
+            newModWall(Blocks.SPRUCE_PLANKS));
+
+    public static final WallBlock BIRCH_WALL = registerWithItem(
+            "birch_wall",
+            newModWall(Blocks.BIRCH_PLANKS));
+
+    public static final WallBlock JUNGLE_WALL = registerWithItem(
+            "jungle_wall",
+            newModWall(Blocks.JUNGLE_PLANKS));
+
+    public static final WallBlock ACACIA_WALL = registerWithItem(
+            "acacia_wall",
+            newModWall(Blocks.ACACIA_PLANKS));
+
+    public static final WallBlock DARK_OAK_WALL = registerWithItem(
+            "dark_oak_wall",
+            newModWall(Blocks.DARK_OAK_PLANKS));
+
+    public static final WallBlock MANGROVE_WALL = registerWithItem(
+            "mangrove_wall",
+            newModWall(Blocks.MANGROVE_PLANKS));
+
+    public static final WallBlock CHERRY_WALL = registerWithItem(
+            "cherry_wall",
+            newModWall(Blocks.CHERRY_PLANKS));
+
+    public static final WallBlock BAMBOO_WALL = registerWithItem(
+            "bamboo_wall",
+            newModWall(Blocks.BAMBOO_PLANKS));
+
+    public static final WallBlock CRIMSON_WALL = registerWithItem(
+            "crimson_wall",
+            newModWall(Blocks.CRIMSON_PLANKS));
+
+    public static final WallBlock WARPED_WALL = registerWithItem(
+            "warped_wall",
+            newModWall(Blocks.WARPED_PLANKS));
+
+    //MOSSY COBBLESTONE
+    public static final DoorBlock MOSSY_COBBLESTONE_DOOR = registerWithItem(
+            "mossy_cobblestone_door",
+            newModDoor(ModBlockSetType.STONE, Blocks.MOSSY_COBBLESTONE, true, 3, 6, false));
+
+    public static final FenceBlock MOSSY_COBBLESTONE_FENCE = registerWithItem(
+            "mossy_cobblestone_fence",
+            newModFence(Blocks.MOSSY_COBBLESTONE, true, 2, 6, BlockSoundGroup.STONE, false));
+
+    public static final FenceGateBlock MOSSY_COBBLESTONE_FENCE_GATE = registerWithItem(
+            "mossy_cobblestone_fence_gate",
+            newModFenceGate(ModWoodType.STONE, Blocks.MOSSY_COBBLESTONE, true, 2, 6, false));
+
+    public static final TrapdoorBlock MOSSY_COBBLESTONE_TRAPDOOR = registerWithItem(
+            "mossy_cobblestone_trapdoor",
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.MOSSY_COBBLESTONE, true, 3, 6));
+
+    public static final PressurePlateBlock MOSSY_COBBLESTONE_PRESSURE_PLATE = registerWithItem(
+            "mossy_cobblestone_pressure_plate",
+            newModPressurePlate(ModBlockSetType.STONE,Blocks.MOSSY_COBBLESTONE, 0.5f));
+
+    public static final ButtonBlock MOSSY_COBBLESTONE_BUTTON = registerWithItem(
+            "mossy_cobblestone_button",
+            newModButton(ModBlockSetType.STONE, 25, Blocks.MOSSY_COBBLESTONE, 0.5f));
+    
+    public static final Identifier MOSSY_COBBLESTONE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/mossy_cobblestone");
+    
+    public static final TerraformSignBlock MOSSY_COBBLESTONE_SIGN = register(
+            "mossy_cobblestone_sign",
+            newModSign(MOSSY_COBBLESTONE_SIGN_TEXTURE, Blocks.MOSSY_COBBLESTONE, 2, false, BlockSoundGroup.STONE));
+
+    public static final TerraformWallSignBlock MOSSY_COBBLESTONE_WALL_SIGN = register(
+            "mossy_cobblestone_wall_sign",
+            newModWallSign(MOSSY_COBBLESTONE_SIGN_TEXTURE, ModBlocks.MOSSY_COBBLESTONE_SIGN));
 
     public static <T extends Block> T register(String name, T block) {
         return Registry.register(Registries.BLOCK, NotEnoughVariants.id(name), block);
@@ -179,7 +325,7 @@ public class ModBlocks {
         return new FenceBlock(settings);
     }
 
-    private static FenceGateBlock newModGate(WoodType woodType, Block base, boolean requiresTool, float hardness, float resistance, boolean isBurnable) {
+    private static FenceGateBlock newModFenceGate(WoodType woodType, Block base, boolean requiresTool, float hardness, float resistance, boolean isBurnable) {
         AbstractBlock.Settings settings = AbstractBlock.Settings.create()
                 .mapColor(base.getDefaultMapColor())
                 .instrument(base.getDefaultState().getInstrument())
@@ -195,7 +341,7 @@ public class ModBlocks {
         return new FenceGateBlock(woodType, settings);
     }
 
-    private static FenceGateBlock newModGate(WoodType woodType, Block base, boolean requiresTool, float strength, boolean isBurnable) {
+    private static FenceGateBlock newModFenceGate(WoodType woodType, Block base, boolean requiresTool, float strength, boolean isBurnable) {
         AbstractBlock.Settings settings = AbstractBlock.Settings.create()
                 .mapColor(base.getDefaultMapColor())
                 .instrument(base.getDefaultState().getInstrument())
@@ -275,34 +421,28 @@ public class ModBlocks {
         return new TrapdoorBlock(blockSetType, settings);
     }
 
-    private static PressurePlateBlock newModPressurePlate(BlockSetType blockSetType, Block base, boolean requiresTool, float hardness, float resistance) {
-        AbstractBlock.Settings settings = AbstractBlock.Settings.create()
-                .mapColor(base.getDefaultMapColor())
-                .instrument(base.getDefaultState().getInstrument())
-                .solid()
-                .noCollision()
-                .strength(hardness, resistance)
-                .pistonBehavior(PistonBehavior.DESTROY);
-
-        if (requiresTool)
-            settings.requiresTool();
-
-        return new PressurePlateBlock(blockSetType, settings);
+    private static PressurePlateBlock newModPressurePlate(BlockSetType blockSetType, Block base, float hardness, float resistance) {
+        return new PressurePlateBlock(
+                blockSetType,
+                AbstractBlock.Settings.create()
+                        .mapColor(base.getDefaultMapColor())
+                        .instrument(base.getDefaultState().getInstrument())
+                        .solid()
+                        .noCollision()
+                        .strength(hardness, resistance)
+                        .pistonBehavior(PistonBehavior.DESTROY));
     }
 
-    private static PressurePlateBlock newModPressurePlate(BlockSetType blockSetType, Block base, boolean requiresTool, float strength) {
-        AbstractBlock.Settings settings = AbstractBlock.Settings.create()
-                .mapColor(base.getDefaultMapColor())
-                .instrument(base.getDefaultState().getInstrument())
-                .solid()
-                .noCollision()
-                .strength(strength)
-                .pistonBehavior(PistonBehavior.DESTROY);
-
-        if (requiresTool)
-            settings.requiresTool();
-
-        return new PressurePlateBlock(blockSetType, settings);
+    private static PressurePlateBlock newModPressurePlate(BlockSetType blockSetType, Block base, float strength) {
+        return new PressurePlateBlock(
+                blockSetType,
+                AbstractBlock.Settings.create()
+                        .mapColor(base.getDefaultMapColor())
+                        .instrument(base.getDefaultState().getInstrument())
+                        .solid()
+                        .noCollision()
+                        .strength(strength)
+                        .pistonBehavior(PistonBehavior.DESTROY));
     }
 
     private static ButtonBlock newModButton(BlockSetType blockSetType, int pressTicks, Block base, float hardness, float resistance) {

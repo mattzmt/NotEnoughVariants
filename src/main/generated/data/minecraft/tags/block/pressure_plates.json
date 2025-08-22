@@ -1,5 +1,8 @@
 {
   "values": [
-    "not_enough_variants:netherrack_pressure_plate"
+    "not_enough_variants:netherrack_pressure_plate",
+    "not_enough_variants:cobblestone_pressure_plate",
+    "not_enough_variants:granite_pressure_plate",
+    "not_enough_variants:mossy_cobblestone_pressure_plate"
   ]
 }

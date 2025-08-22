@@ -1,9 +1,9 @@
 package github.mattzmt.not_enough_variants.data.provider;
 
 import github.mattzmt.not_enough_variants.NotEnoughVariants;
-import github.mattzmt.not_enough_variants.init.ModBlocks;
-import github.mattzmt.not_enough_variants.init.ModItemGroups;
-import github.mattzmt.not_enough_variants.init.ModItems;
+import github.mattzmt.not_enough_variants.block.ModBlocks;
+import github.mattzmt.not_enough_variants.item.ModItemGroups;
+import github.mattzmt.not_enough_variants.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.registry.RegistryWrapper;

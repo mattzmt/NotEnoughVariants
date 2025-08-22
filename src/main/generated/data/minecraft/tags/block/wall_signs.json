@@ -1,6 +1,9 @@
 {
   "values": [
     "not_enough_variants:netherrack_wall_sign",
-    "not_enough_variants:stone_wall_sign"
+    "not_enough_variants:stone_wall_sign",
+    "not_enough_variants:cobblestone_wall_sign",
+    "not_enough_variants:granite_wall_sign",
+    "not_enough_variants:mossy_cobblestone_wall_sign"
   ]
 }

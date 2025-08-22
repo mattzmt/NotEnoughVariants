@@ -1,4 +1,4 @@
-package github.mattzmt.not_enough_variants.list;
+package github.mattzmt.not_enough_variants.block;
 
 import github.mattzmt.not_enough_variants.NotEnoughVariants;
 import github.mattzmt.not_enough_variants.sound.ModSounds;
@@ -18,10 +18,10 @@ public class ModBlockSetType {
             ModSounds.NETHERRACK_DOOR_OPEN,
             ModSounds.NETHERRACK_TRAPDOOR_CLOSE,
             ModSounds.NETHERRACK_TRAPDOOR_OPEN,
-            ModSounds.NETHERRACK_DOOR_CLOSE,
-            ModSounds.NETHERRACK_DOOR_OPEN,
-            ModSounds.NETHERRACK_DOOR_CLOSE,
-            ModSounds.NETHERRACK_DOOR_OPEN
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK
     );
 
     public static final BlockSetType STONE = new BlockSetType(
@@ -31,10 +31,10 @@ public class ModBlockSetType {
             false,
             BlockSetType.ActivationRule.MOBS,
             BlockSoundGroup.STONE,
-            ModSounds.NETHERRACK_DOOR_CLOSE,
-            ModSounds.NETHERRACK_DOOR_OPEN,
-            ModSounds.NETHERRACK_DOOR_CLOSE,
-            ModSounds.NETHERRACK_DOOR_OPEN,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
             SoundEvents.BLOCK_STONE_PRESSURE_PLATE_CLICK_OFF,
             SoundEvents.BLOCK_STONE_PRESSURE_PLATE_CLICK_ON,
             SoundEvents.BLOCK_STONE_BUTTON_CLICK_OFF,

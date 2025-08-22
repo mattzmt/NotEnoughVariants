@@ -1,6 +1,17 @@
 {
   "values": [
     "not_enough_variants:netherrack_wall",
-    "not_enough_variants:stone_wall"
+    "not_enough_variants:stone_wall",
+    "not_enough_variants:oak_wall",
+    "not_enough_variants:spruce_wall",
+    "not_enough_variants:birch_wall",
+    "not_enough_variants:jungle_wall",
+    "not_enough_variants:acacia_wall",
+    "not_enough_variants:dark_oak_wall",
+    "not_enough_variants:mangrove_wall",
+    "not_enough_variants:cherry_wall",
+    "not_enough_variants:bamboo_wall",
+    "not_enough_variants:crimson_wall",
+    "not_enough_variants:warped_wall"
   ]
 }

@@ -1,6 +1,6 @@
 package github.mattzmt.not_enough_variants.data.provider;
 
-import github.mattzmt.not_enough_variants.init.ModBlocks;
+import github.mattzmt.not_enough_variants.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -31,34 +31,87 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STONE_DOOR)
                 .add(ModBlocks.STONE_WALL)
                 .add(ModBlocks.STONE_SIGN)
-                .add(ModBlocks.STONE_WALL_SIGN)
                 .add(ModBlocks.STONE_FENCE)
                 .add(ModBlocks.STONE_FENCE_GATE)
-                .add(ModBlocks.STONE_TRAPDOOR);
+                .add(ModBlocks.STONE_TRAPDOOR)
+                .add(ModBlocks.STONE_WALL_SIGN)
+
+                .add(ModBlocks.COBBLESTONE_DOOR)
+                .add(ModBlocks.COBBLESTONE_FENCE)
+                .add(ModBlocks.COBBLESTONE_FENCE_GATE)
+                .add(ModBlocks.COBBLESTONE_TRAPDOOR)
+                .add(ModBlocks.COBBLESTONE_PRESSURE_PLATE)
+                .add(ModBlocks.COBBLESTONE_BUTTON)
+                .add(ModBlocks.COBBLESTONE_SIGN)
+                .add(ModBlocks.COBBLESTONE_WALL_SIGN)
+
+                .add(ModBlocks.GRANITE_DOOR)
+                .add(ModBlocks.GRANITE_FENCE)
+                .add(ModBlocks.GRANITE_FENCE_GATE)
+                .add(ModBlocks.GRANITE_TRAPDOOR)
+                .add(ModBlocks.GRANITE_PRESSURE_PLATE)
+                .add(ModBlocks.GRANITE_BUTTON)
+                .add(ModBlocks.GRANITE_SIGN)
+                .add(ModBlocks.GRANITE_WALL_SIGN)
+
+                .add(ModBlocks.MOSSY_COBBLESTONE_DOOR)
+                .add(ModBlocks.MOSSY_COBBLESTONE_FENCE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR)
+                .add(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_BUTTON)
+                .add(ModBlocks.MOSSY_COBBLESTONE_SIGN)
+                .add(ModBlocks.MOSSY_COBBLESTONE_WALL_SIGN);
 
         getOrCreateTagBuilder(BlockTags.DOORS)
                 .add(ModBlocks.NETHERRACK_DOOR)
-                .add(ModBlocks.STONE_DOOR);
+                .add(ModBlocks.STONE_DOOR)
+                .add(ModBlocks.COBBLESTONE_DOOR)
+                .add(ModBlocks.GRANITE_DOOR)
+                .add(ModBlocks.MOSSY_COBBLESTONE_DOOR);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.NETHERRACK_WALL)
-                .add(ModBlocks.STONE_WALL);
+                .add(ModBlocks.STONE_WALL)
+                .add(ModBlocks.OAK_WALL)
+                .add(ModBlocks.SPRUCE_WALL)
+                .add(ModBlocks.BIRCH_WALL)
+                .add(ModBlocks.JUNGLE_WALL)
+                .add(ModBlocks.ACACIA_WALL)
+                .add(ModBlocks.DARK_OAK_WALL)
+                .add(ModBlocks.MANGROVE_WALL)
+                .add(ModBlocks.CHERRY_WALL)
+                .add(ModBlocks.BAMBOO_WALL)
+                .add(ModBlocks.CRIMSON_WALL)
+                .add(ModBlocks.WARPED_WALL);
 
         getOrCreateTagBuilder(BlockTags.STANDING_SIGNS)
                 .add(ModBlocks.NETHERRACK_SIGN)
-                .add(ModBlocks.STONE_SIGN);
+                .add(ModBlocks.STONE_SIGN)
+                .add(ModBlocks.COBBLESTONE_SIGN)
+                .add(ModBlocks.GRANITE_SIGN)
+                .add(ModBlocks.MOSSY_COBBLESTONE_SIGN);
 
         getOrCreateTagBuilder(BlockTags.WALL_SIGNS)
                 .add(ModBlocks.NETHERRACK_WALL_SIGN)
-                .add(ModBlocks.STONE_WALL_SIGN);
+                .add(ModBlocks.STONE_WALL_SIGN)
+                .add(ModBlocks.COBBLESTONE_WALL_SIGN)
+                .add(ModBlocks.GRANITE_WALL_SIGN)
+                .add(ModBlocks.MOSSY_COBBLESTONE_WALL_SIGN);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.NETHERRACK_FENCE)
-                .add(ModBlocks.STONE_FENCE);
+                .add(ModBlocks.STONE_FENCE)
+                .add(ModBlocks.COBBLESTONE_FENCE)
+                .add(ModBlocks.GRANITE_FENCE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.NETHERRACK_FENCE_GATE)
-                .add(ModBlocks.STONE_FENCE_GATE);
+                .add(ModBlocks.STONE_FENCE_GATE)
+                .add(ModBlocks.COBBLESTONE_FENCE_GATE)
+                .add(ModBlocks.GRANITE_FENCE_GATE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.NETHERRACK_STAIRS);
@@ -68,12 +121,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.TRAPDOORS)
                 .add(ModBlocks.NETHERRACK_TRAPDOOR)
-                .add(ModBlocks.STONE_TRAPDOOR);
+                .add(ModBlocks.STONE_TRAPDOOR)
+                .add(ModBlocks.COBBLESTONE_TRAPDOOR)
+                .add(ModBlocks.GRANITE_TRAPDOOR)
+                .add(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.PRESSURE_PLATES)
-                .add(ModBlocks.NETHERRACK_PRESSURE_PLATE);
+                .add(ModBlocks.NETHERRACK_PRESSURE_PLATE)
+                .add(ModBlocks.COBBLESTONE_PRESSURE_PLATE)
+                .add(ModBlocks.GRANITE_PRESSURE_PLATE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.BUTTONS)
-                .add(ModBlocks.NETHERRACK_BUTTON);
+                .add(ModBlocks.NETHERRACK_BUTTON)
+                .add(ModBlocks.COBBLESTONE_BUTTON)
+                .add(ModBlocks.GRANITE_BUTTON)
+                .add(ModBlocks.MOSSY_COBBLESTONE_BUTTON);
     }
 }

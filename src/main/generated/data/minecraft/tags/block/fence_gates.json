@@ -1,6 +1,9 @@
 {
   "values": [
     "not_enough_variants:netherrack_fence_gate",
-    "not_enough_variants:stone_fence_gate"
+    "not_enough_variants:stone_fence_gate",
+    "not_enough_variants:cobblestone_fence_gate",
+    "not_enough_variants:granite_fence_gate",
+    "not_enough_variants:mossy_cobblestone_fence_gate"
   ]
 }

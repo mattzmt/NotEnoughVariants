@@ -1,7 +1,7 @@
 package github.mattzmt.not_enough_variants.data.provider;
 
-import github.mattzmt.not_enough_variants.init.ModBlocks;
-import github.mattzmt.not_enough_variants.init.ModItems;
+import github.mattzmt.not_enough_variants.block.ModBlocks;
+import github.mattzmt.not_enough_variants.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -34,5 +34,35 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STONE_TRAPDOOR);
         addDrop(ModBlocks.STONE_SIGN, ModItems.STONE_SIGN);
         addDrop(ModBlocks.STONE_WALL_SIGN, ModItems.STONE_SIGN);
+
+        addDrop(ModBlocks.GRANITE_DOOR, doorDrops(ModBlocks.GRANITE_DOOR));
+        addDrop(ModBlocks.GRANITE_FENCE);
+        addDrop(ModBlocks.GRANITE_FENCE_GATE);
+        addDrop(ModBlocks.GRANITE_TRAPDOOR);
+        addDrop(ModBlocks.GRANITE_PRESSURE_PLATE);
+        addDrop(ModBlocks.GRANITE_BUTTON);
+        addDrop(ModBlocks.GRANITE_SIGN, ModItems.GRANITE_SIGN);
+        addDrop(ModBlocks.GRANITE_WALL_SIGN, ModItems.GRANITE_SIGN);
+
+        addDrop(ModBlocks.OAK_WALL);
+        addDrop(ModBlocks.SPRUCE_WALL);
+        addDrop(ModBlocks.BIRCH_WALL);
+        addDrop(ModBlocks.JUNGLE_WALL);
+        addDrop(ModBlocks.ACACIA_WALL);
+        addDrop(ModBlocks.DARK_OAK_WALL);
+        addDrop(ModBlocks.MANGROVE_WALL);
+        addDrop(ModBlocks.CHERRY_WALL);
+        addDrop(ModBlocks.BAMBOO_WALL);
+        addDrop(ModBlocks.CRIMSON_WALL);
+        addDrop(ModBlocks.WARPED_WALL);
+
+        addDrop(ModBlocks.MOSSY_COBBLESTONE_DOOR, doorDrops(ModBlocks.MOSSY_COBBLESTONE_DOOR));
+        addDrop(ModBlocks.MOSSY_COBBLESTONE_FENCE);
+        addDrop(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE);
+        addDrop(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR);
+        addDrop(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.MOSSY_COBBLESTONE_BUTTON);
+        addDrop(ModBlocks.MOSSY_COBBLESTONE_SIGN, ModItems.MOSSY_COBBLESTONE_SIGN);
+        addDrop(ModBlocks.MOSSY_COBBLESTONE_WALL_SIGN, ModItems.MOSSY_COBBLESTONE_SIGN);
     }
 }

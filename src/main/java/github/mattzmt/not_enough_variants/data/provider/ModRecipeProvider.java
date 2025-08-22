@@ -1,8 +1,8 @@
 package github.mattzmt.not_enough_variants.data.provider;
 
 import github.mattzmt.not_enough_variants.NotEnoughVariants;
-import github.mattzmt.not_enough_variants.init.ModBlocks;
-import github.mattzmt.not_enough_variants.init.ModItems;
+import github.mattzmt.not_enough_variants.block.ModBlocks;
+import github.mattzmt.not_enough_variants.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
@@ -11,7 +11,6 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 

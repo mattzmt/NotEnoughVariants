@@ -1,12 +1,11 @@
 package github.mattzmt.not_enough_variants;
 
-import github.mattzmt.not_enough_variants.init.ModBlocks;
-import github.mattzmt.not_enough_variants.init.ModItemGroups;
-import github.mattzmt.not_enough_variants.init.ModItems;
+import github.mattzmt.not_enough_variants.block.ModBlocks;
+import github.mattzmt.not_enough_variants.item.ModItemGroups;
+import github.mattzmt.not_enough_variants.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
