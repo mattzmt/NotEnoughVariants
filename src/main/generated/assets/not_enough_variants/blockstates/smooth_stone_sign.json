@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "not_enough_variants:block/smooth_stone_sign"
+    }
+  }
+}
