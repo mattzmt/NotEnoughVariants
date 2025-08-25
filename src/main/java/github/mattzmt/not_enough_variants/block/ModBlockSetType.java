@@ -21,8 +21,7 @@ public class ModBlockSetType {
             SoundEvents.BLOCK_LEVER_CLICK,
             SoundEvents.BLOCK_LEVER_CLICK,
             SoundEvents.BLOCK_LEVER_CLICK,
-            SoundEvents.BLOCK_LEVER_CLICK
-    );
+            SoundEvents.BLOCK_LEVER_CLICK);
 
     public static final BlockSetType STONE = new BlockSetType(
             NotEnoughVariants.id("stone").toString(),
@@ -38,6 +37,21 @@ public class ModBlockSetType {
             SoundEvents.BLOCK_STONE_PRESSURE_PLATE_CLICK_OFF,
             SoundEvents.BLOCK_STONE_PRESSURE_PLATE_CLICK_ON,
             SoundEvents.BLOCK_STONE_BUTTON_CLICK_OFF,
-            SoundEvents.BLOCK_STONE_BUTTON_CLICK_ON
-    );
+            SoundEvents.BLOCK_STONE_BUTTON_CLICK_ON);
+
+    public static final BlockSetType NETHERITE = new BlockSetType(
+            NotEnoughVariants.id("netherite").toString(),
+            false,
+            false,
+            false,
+            BlockSetType.ActivationRule.EVERYTHING,
+            BlockSoundGroup.NETHERITE,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK);
 }

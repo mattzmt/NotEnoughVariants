@@ -73,6 +73,14 @@ public class ModItems {
                             .maxCount(16),
                     ModBlocks.CRACKED_STONE_BRICK_SIGN, ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN));
 
+
+    public static final SignItem NETHERITE_SIGN = register(
+            "netherite_sign",
+            new SignItem(
+                    new Item.Settings()
+                            .maxCount(16),
+                    ModBlocks.NETHERITE_SIGN, ModBlocks.NETHERITE_WALL_SIGN));
+
     public static <T extends Item> T register(String name, T item) {
         return Registry.register(Registries.ITEM, NotEnoughVariants.id(name), item);
     }

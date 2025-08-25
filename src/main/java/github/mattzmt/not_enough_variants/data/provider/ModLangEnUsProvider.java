@@ -41,6 +41,7 @@ public class ModLangEnUsProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.SMOOTH_STONE_SIGN, "Smooth Stone Sign");
         translationBuilder.add(ModItems.STONE_BRICK_SIGN, "Stone Brick Sign");
         translationBuilder.add(ModItems.CRACKED_STONE_BRICK_SIGN, "Cracked Stone Brick Sign");
+        translationBuilder.add(ModItems.NETHERITE_SIGN, "Swaggiest Sign Ever");
 
         //BLOCKS
         translationBuilder.add(ModBlocks.NETHERRACK_DOOR, "Netherrack Door");
@@ -117,5 +118,15 @@ public class ModLangEnUsProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR, "Cracked Stone Brick Trapdoor");
         translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE, "Cracked Stone Brick Pressure Plate");
         translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_BUTTON, "Cracked Stone Brick Button");
+
+        translationBuilder.add(ModBlocks.NETHERITE_DOOR, "Swaggiest Door Ever");
+        translationBuilder.add(ModBlocks.NETHERITE_WALL, "Swaggiest Wall Ever");
+        translationBuilder.add(ModBlocks.NETHERITE_FENCE, "Swaggiest Fence Ever");
+        translationBuilder.add(ModBlocks.NETHERITE_FENCE_GATE, "Swaggiest Fence Gate Ever");
+        translationBuilder.add(ModBlocks.NETHERITE_STAIRS, "Swaggiest Stairs Ever");
+        translationBuilder.add(ModBlocks.NETHERITE_SLAB, "Swaggiest Slab Ever");
+        translationBuilder.add(ModBlocks.NETHERITE_TRAPDOOR, "Swaggiest Trapdoor Ever");
+        translationBuilder.add(ModBlocks.NETHERITE_PRESSURE_PLATE, "Swaggiest Pressure Plate Ever");
+        translationBuilder.add(ModBlocks.NETHERITE_BUTTON, "Swaggiest Button Ever");
     }
 }

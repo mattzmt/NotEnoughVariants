@@ -98,6 +98,17 @@ public class ModItemGroups {
                 entries.add(ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR);
                 entries.add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE);
                 entries.add(ModBlocks.CRACKED_STONE_BRICK_BUTTON);
+
+                entries.add(ModBlocks.NETHERITE_DOOR);
+                entries.add(ModBlocks.NETHERITE_WALL);
+                entries.add(ModItems.NETHERITE_SIGN);
+                entries.add(ModBlocks.NETHERITE_FENCE);
+                entries.add(ModBlocks.NETHERITE_FENCE_GATE);
+                entries.add(ModBlocks.NETHERITE_STAIRS);
+                entries.add(ModBlocks.NETHERITE_SLAB);
+                entries.add(ModBlocks.NETHERITE_TRAPDOOR);
+                entries.add(ModBlocks.NETHERITE_PRESSURE_PLATE);
+                entries.add(ModBlocks.NETHERITE_BUTTON);
             }).build()
     );
 

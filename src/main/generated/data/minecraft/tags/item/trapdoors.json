@@ -7,6 +7,7 @@
     "not_enough_variants:mossy_cobblestone_trapdoor",
     "not_enough_variants:smooth_stone_trapdoor",
     "not_enough_variants:stone_brick_trapdoor",
-    "not_enough_variants:cracked_stone_brick_trapdoor"
+    "not_enough_variants:cracked_stone_brick_trapdoor",
+    "not_enough_variants:netherite_trapdoor"
   ]
 }

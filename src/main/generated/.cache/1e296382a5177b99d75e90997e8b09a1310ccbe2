@@ -1,13 +1,14 @@
-// 1.21.1	2025-08-25T21:49:09.6346175	Not Enough Variants/Tags for minecraft:block
-a454b665c2acb7c2bd0a0ad46ff9dbdf061ebf82 data\minecraft\tags\block\stairs.json
-95d36dc50e3102f9f0b5d91baf2f2a51e57cfc6c data\minecraft\tags\block\standing_signs.json
-b6a341039b6a992eb0f7fcf90c16efa1522fa416 data\minecraft\tags\block\slabs.json
-4c16b8671be7091d4e4fdb89269509300c5fb47f data\minecraft\tags\block\buttons.json
-5284a685881392696551912398496e3025749921 data\minecraft\tags\block\pressure_plates.json
-2ab456c6e2e1cc1adf4952dc543bbc6c6cc6479b data\minecraft\tags\block\doors.json
-ee8df2d249d87be2c2f01f8185fc6c2689591cb1 data\minecraft\tags\block\mineable\pickaxe.json
-cd079d2f8c462239c444b62869dfb1d39d796bdb data\minecraft\tags\block\wall_signs.json
-30f3bad3c502bd03d5c3171269dd714906cf21b3 data\minecraft\tags\block\fences.json
-d0586198f9a6ddee307b41db6e976887a9cb3788 data\minecraft\tags\block\fence_gates.json
-38c8b3e194a90726c72369770de5fb593a08a849 data\minecraft\tags\block\walls.json
-2364db0b8bf5ffdfa6d66a2cb431f96320e1af7e data\minecraft\tags\block\trapdoors.json
+// 1.21.1	2025-08-26T00:16:20.7371177	Not Enough Variants/Tags for minecraft:block
+1946faf39b4344a53b065a313c0f0bd0286bee27 data\minecraft\tags\block\stairs.json
+bfbc5b4327973764dbfccfc5b27d234c72d49115 data\minecraft\tags\block\standing_signs.json
+a6312d3adf4174790e76943b55e9bf1c6e2fa510 data\minecraft\tags\block\slabs.json
+8d3d5a57d15677f96957c31bebd87c958365fbdf data\minecraft\tags\block\buttons.json
+0eb63c628d67f1658a74461ad5654c07bd80e2da data\minecraft\tags\block\pressure_plates.json
+424575f3f8775ae15a7e91586f3281e3080ab9df data\minecraft\tags\block\needs_diamond_tool.json
+25e3a1d532093265c29812cd1b16af667961010c data\minecraft\tags\block\mineable\pickaxe.json
+911d6d6374d86bcac09018dc62c23958f27df51d data\minecraft\tags\block\doors.json
+0b582d2abfc34a7803ec721dbab4aef9e62a8faa data\minecraft\tags\block\wall_signs.json
+dc8b45c2183d417024689d9a8d2346226633b7ff data\minecraft\tags\block\fences.json
+92495ddcf7684014a7923f509098dc86d5b5c971 data\minecraft\tags\block\fence_gates.json
+2b42a6a98f14594287301aae7fd0bf94cdd8fe62 data\minecraft\tags\block\walls.json
+420633fd5f62af31d0dfb2b1a97396e335e9d029 data\minecraft\tags\block\trapdoors.json

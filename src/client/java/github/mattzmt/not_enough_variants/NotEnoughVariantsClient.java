@@ -11,7 +11,8 @@ public class NotEnoughVariantsClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
                 ModBlocks.NETHERRACK_DOOR,
                 ModBlocks.STONE_DOOR,
-                ModBlocks.COBBLESTONE_DOOR
+                ModBlocks.COBBLESTONE_DOOR,
+                ModBlocks.NETHERITE_DOOR
         );
 	}
 }

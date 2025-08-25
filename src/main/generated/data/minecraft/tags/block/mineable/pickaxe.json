@@ -70,6 +70,17 @@
     "not_enough_variants:cracked_stone_brick_pressure_plate",
     "not_enough_variants:cracked_stone_brick_button",
     "not_enough_variants:cracked_stone_brick_sign",
-    "not_enough_variants:cracked_stone_brick_wall_sign"
+    "not_enough_variants:cracked_stone_brick_wall_sign",
+    "not_enough_variants:netherite_door",
+    "not_enough_variants:netherite_wall",
+    "not_enough_variants:netherite_fence",
+    "not_enough_variants:netherite_fence_gate",
+    "not_enough_variants:netherite_stairs",
+    "not_enough_variants:netherite_slab",
+    "not_enough_variants:netherite_trapdoor",
+    "not_enough_variants:netherite_pressure_plate",
+    "not_enough_variants:netherite_button",
+    "not_enough_variants:netherite_sign",
+    "not_enough_variants:netherite_wall_sign"
   ]
 }

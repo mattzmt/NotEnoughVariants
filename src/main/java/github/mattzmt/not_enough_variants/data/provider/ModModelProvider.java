@@ -134,6 +134,20 @@ public class ModModelProvider extends FabricModelProvider {
                 .button(ModBlocks.CRACKED_STONE_BRICK_BUTTON)
                 .build();
         blockStateModelGenerator.registerCubeAllModelTexturePool(crackedStoneBrickFamily.getBaseBlock()).family(crackedStoneBrickFamily);
+
+        var netheriteFamily = new BlockFamily.Builder(Blocks.NETHERITE_BLOCK)
+                .door(ModBlocks.NETHERITE_DOOR)
+                .wall(ModBlocks.NETHERITE_WALL)
+                .sign(ModBlocks.NETHERITE_SIGN, ModBlocks.NETHERITE_WALL_SIGN)
+                .fence(ModBlocks.NETHERITE_FENCE)
+                .fenceGate(ModBlocks.NETHERITE_FENCE_GATE)
+                .stairs(ModBlocks.NETHERITE_STAIRS)
+                .slab(ModBlocks.NETHERITE_SLAB)
+                .trapdoor(ModBlocks.NETHERITE_TRAPDOOR)
+                .pressurePlate(ModBlocks.NETHERITE_PRESSURE_PLATE)
+                .button(ModBlocks.NETHERITE_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(netheriteFamily.getBaseBlock()).family(netheriteFamily);
     }
 
     @Override

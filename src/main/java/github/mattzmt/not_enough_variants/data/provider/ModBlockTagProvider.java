@@ -93,7 +93,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE)
                 .add(ModBlocks.CRACKED_STONE_BRICK_BUTTON)
                 .add(ModBlocks.CRACKED_STONE_BRICK_SIGN)
-                .add(ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN);
+                .add(ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN)
+
+                .add(ModBlocks.NETHERITE_DOOR)
+                .add(ModBlocks.NETHERITE_WALL)
+                .add(ModBlocks.NETHERITE_FENCE)
+                .add(ModBlocks.NETHERITE_FENCE_GATE)
+                .add(ModBlocks.NETHERITE_STAIRS)
+                .add(ModBlocks.NETHERITE_SLAB)
+                .add(ModBlocks.NETHERITE_TRAPDOOR)
+                .add(ModBlocks.NETHERITE_PRESSURE_PLATE)
+                .add(ModBlocks.NETHERITE_BUTTON)
+                .add(ModBlocks.NETHERITE_SIGN)
+                .add(ModBlocks.NETHERITE_WALL_SIGN);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.NETHERITE_WALL)
+                .add(ModBlocks.NETHERITE_FENCE)
+                .add(ModBlocks.NETHERITE_FENCE_GATE)
+                .add(ModBlocks.NETHERITE_STAIRS)
+                .add(ModBlocks.NETHERITE_SLAB)
+                .add(ModBlocks.NETHERITE_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.DOORS)
                 .add(ModBlocks.NETHERRACK_DOOR)
@@ -103,7 +123,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_COBBLESTONE_DOOR)
                 .add(ModBlocks.SMOOTH_STONE_DOOR)
                 .add(ModBlocks.STONE_BRICK_DOOR)
-                .add(ModBlocks.CRACKED_STONE_BRICK_DOOR);
+                .add(ModBlocks.CRACKED_STONE_BRICK_DOOR)
+                .add(ModBlocks.NETHERITE_DOOR);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.NETHERRACK_WALL)
@@ -120,7 +141,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRIMSON_WALL)
                 .add(ModBlocks.WARPED_WALL)
                 .add(ModBlocks.SMOOTH_STONE_WALL)
-                .add(ModBlocks.CRACKED_STONE_BRICK_WALL);
+                .add(ModBlocks.CRACKED_STONE_BRICK_WALL)
+                .add(ModBlocks.NETHERITE_WALL);
 
         getOrCreateTagBuilder(BlockTags.STANDING_SIGNS)
                 .add(ModBlocks.NETHERRACK_SIGN)
@@ -130,7 +152,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_COBBLESTONE_SIGN)
                 .add(ModBlocks.SMOOTH_STONE_SIGN)
                 .add(ModBlocks.STONE_BRICK_SIGN)
-                .add(ModBlocks.CRACKED_STONE_BRICK_SIGN);
+                .add(ModBlocks.CRACKED_STONE_BRICK_SIGN)
+                .add(ModBlocks.NETHERITE_SIGN);
 
         getOrCreateTagBuilder(BlockTags.WALL_SIGNS)
                 .add(ModBlocks.NETHERRACK_WALL_SIGN)
@@ -140,7 +163,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_COBBLESTONE_WALL_SIGN)
                 .add(ModBlocks.SMOOTH_STONE_WALL_SIGN)
                 .add(ModBlocks.STONE_BRICK_WALL_SIGN)
-                .add(ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN);
+                .add(ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN)
+                .add(ModBlocks.NETHERITE_WALL_SIGN);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.NETHERRACK_FENCE)
@@ -150,7 +174,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_COBBLESTONE_FENCE)
                 .add(ModBlocks.SMOOTH_STONE_FENCE)
                 .add(ModBlocks.STONE_BRICK_FENCE)
-                .add(ModBlocks.CRACKED_STONE_BRICK_FENCE);
+                .add(ModBlocks.CRACKED_STONE_BRICK_FENCE)
+                .add(ModBlocks.NETHERITE_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.NETHERRACK_FENCE_GATE)
@@ -160,16 +185,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE)
                 .add(ModBlocks.SMOOTH_STONE_FENCE_GATE)
                 .add(ModBlocks.STONE_BRICK_FENCE_GATE)
-                .add(ModBlocks.CRACKED_STONE_BRICK_FENCE_GATE);
+                .add(ModBlocks.CRACKED_STONE_BRICK_FENCE_GATE)
+                .add(ModBlocks.NETHERITE_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.NETHERRACK_STAIRS)
                 .add(ModBlocks.SMOOTH_STONE_STAIRS)
-                .add(ModBlocks.CRACKED_STONE_BRICK_STAIRS);
+                .add(ModBlocks.CRACKED_STONE_BRICK_STAIRS)
+                .add(ModBlocks.NETHERITE_STAIRS);
 
         getOrCreateTagBuilder(BlockTags.SLABS)
                 .add(ModBlocks.NETHERRACK_SLAB)
-                .add(ModBlocks.CRACKED_STONE_BRICK_SLAB);
+                .add(ModBlocks.CRACKED_STONE_BRICK_SLAB)
+                .add(ModBlocks.NETHERITE_SLAB);
 
         getOrCreateTagBuilder(BlockTags.TRAPDOORS)
                 .add(ModBlocks.NETHERRACK_TRAPDOOR)
@@ -179,7 +207,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR)
                 .add(ModBlocks.SMOOTH_STONE_TRAPDOOR)
                 .add(ModBlocks.STONE_BRICK_TRAPDOOR)
-                .add(ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR);
+                .add(ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR)
+                .add(ModBlocks.NETHERITE_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.PRESSURE_PLATES)
                 .add(ModBlocks.NETHERRACK_PRESSURE_PLATE)
@@ -188,7 +217,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE)
                 .add(ModBlocks.SMOOTH_STONE_PRESSURE_PLATE)
                 .add(ModBlocks.STONE_BRICK_PRESSURE_PLATE)
-                .add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE);
+                .add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE)
+                .add(ModBlocks.NETHERITE_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.BUTTONS)
                 .add(ModBlocks.NETHERRACK_BUTTON)
@@ -197,6 +227,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_COBBLESTONE_BUTTON)
                 .add(ModBlocks.SMOOTH_STONE_BUTTON)
                 .add(ModBlocks.STONE_BRICK_BUTTON)
-                .add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE);
+                .add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE)
+                .add(ModBlocks.NETHERITE_BUTTON);
     }
 }
