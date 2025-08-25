@@ -120,6 +120,20 @@ public class ModModelProvider extends FabricModelProvider {
                 .button(ModBlocks.STONE_BRICK_BUTTON)
                 .build();
         blockStateModelGenerator.registerCubeAllModelTexturePool(stoneBrickFamily.getBaseBlock()).family(stoneBrickFamily);
+
+        var crackedStoneBrickFamily = new BlockFamily.Builder(Blocks.CRACKED_STONE_BRICKS)
+                .door(ModBlocks.CRACKED_STONE_BRICK_DOOR)
+                .wall(ModBlocks.CRACKED_STONE_BRICK_WALL)
+                .sign(ModBlocks.CRACKED_STONE_BRICK_SIGN, ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN)
+                .fence(ModBlocks.CRACKED_STONE_BRICK_FENCE)
+                .fenceGate(ModBlocks.CRACKED_STONE_BRICK_FENCE_GATE)
+                .stairs(ModBlocks.CRACKED_STONE_BRICK_STAIRS)
+                .slab(ModBlocks.CRACKED_STONE_BRICK_SLAB)
+                .trapdoor(ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR)
+                .pressurePlate(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE)
+                .button(ModBlocks.CRACKED_STONE_BRICK_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(crackedStoneBrickFamily.getBaseBlock()).family(crackedStoneBrickFamily);
     }
 
     @Override

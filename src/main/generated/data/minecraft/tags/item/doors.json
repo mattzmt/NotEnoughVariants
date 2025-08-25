@@ -6,6 +6,7 @@
     "not_enough_variants:granite_door",
     "not_enough_variants:mossy_cobblestone_door",
     "not_enough_variants:smooth_stone_door",
-    "not_enough_variants:stone_brick_door"
+    "not_enough_variants:stone_brick_door",
+    "not_enough_variants:cracked_stone_brick_door"
   ]
 }

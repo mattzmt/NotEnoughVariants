@@ -6,6 +6,7 @@
     "not_enough_variants:granite_sign",
     "not_enough_variants:mossy_cobblestone_sign",
     "not_enough_variants:smooth_stone_sign",
-    "not_enough_variants:stone_brick_sign"
+    "not_enough_variants:stone_brick_sign",
+    "not_enough_variants:cracked_stone_brick_sign"
   ]
 }

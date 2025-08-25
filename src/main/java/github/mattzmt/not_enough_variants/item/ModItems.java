@@ -65,6 +65,14 @@ public class ModItems {
                             .maxCount(16),
                     ModBlocks.STONE_BRICK_SIGN, ModBlocks.STONE_BRICK_WALL_SIGN));
 
+
+    public static final SignItem CRACKED_STONE_BRICK_SIGN = register(
+            "cracked_stone_brick_sign",
+            new SignItem(
+                    new Item.Settings()
+                            .maxCount(16),
+                    ModBlocks.CRACKED_STONE_BRICK_SIGN, ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN));
+
     public static <T extends Item> T register(String name, T item) {
         return Registry.register(Registries.ITEM, NotEnoughVariants.id(name), item);
     }

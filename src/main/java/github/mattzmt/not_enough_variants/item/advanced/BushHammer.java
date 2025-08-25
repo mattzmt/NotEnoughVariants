@@ -33,7 +33,22 @@ public class BushHammer extends Item {
                 Map.entry(Blocks.STONE_SLAB, Blocks.COBBLESTONE_SLAB),
                 Map.entry(ModBlocks.STONE_TRAPDOOR, ModBlocks.COBBLESTONE_TRAPDOOR),
                 Map.entry(Blocks.STONE_PRESSURE_PLATE, ModBlocks.COBBLESTONE_PRESSURE_PLATE),
-                Map.entry(Blocks.STONE_BUTTON, ModBlocks.COBBLESTONE_BUTTON)
+                Map.entry(Blocks.STONE_BUTTON, ModBlocks.COBBLESTONE_BUTTON),
+
+                Map.entry(ModBlocks.STONE_BRICK_DOOR, ModBlocks.CRACKED_STONE_BRICK_DOOR),
+                Map.entry(Blocks.STONE_BRICKS, Blocks.CRACKED_STONE_BRICKS),
+                Map.entry(Blocks.STONE_BRICK_WALL, ModBlocks.CRACKED_STONE_BRICK_WALL),
+                Map.entry(ModBlocks.STONE_BRICK_SIGN, ModBlocks.CRACKED_STONE_BRICK_SIGN),
+                Map.entry(ModBlocks.STONE_BRICK_WALL_SIGN, ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN),
+                Map.entry(ModBlocks.STONE_BRICK_FENCE, ModBlocks.CRACKED_STONE_BRICK_FENCE),
+                Map.entry(ModBlocks.STONE_BRICK_FENCE_GATE, ModBlocks.CRACKED_STONE_BRICK_FENCE_GATE),
+                Map.entry(Blocks.STONE_BRICK_STAIRS, ModBlocks.CRACKED_STONE_BRICK_STAIRS),
+                Map.entry(Blocks.STONE_BRICK_SLAB, ModBlocks.CRACKED_STONE_BRICK_SLAB),
+                Map.entry(ModBlocks.STONE_BRICK_TRAPDOOR, ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR),
+                Map.entry(ModBlocks.STONE_BRICK_PRESSURE_PLATE, ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE),
+                Map.entry(ModBlocks.STONE_BRICK_BUTTON, ModBlocks.CRACKED_STONE_BRICK_BUTTON)
+
+
         );
 
     public BushHammer(Settings settings) {

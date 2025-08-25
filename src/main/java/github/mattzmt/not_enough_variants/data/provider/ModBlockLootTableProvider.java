@@ -84,5 +84,17 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STONE_BRICK_BUTTON);
         addDrop(ModBlocks.STONE_BRICK_SIGN, ModItems.STONE_BRICK_SIGN);
         addDrop(ModBlocks.STONE_BRICK_WALL_SIGN, ModItems.STONE_BRICK_SIGN);
+
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_DOOR, doorDrops(ModBlocks.CRACKED_STONE_BRICK_DOOR));
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_WALL);
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_FENCE);
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_FENCE_GATE);
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_STAIRS);
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_SLAB, slabDrops(ModBlocks.CRACKED_STONE_BRICK_SLAB));
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR);
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE);
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_BUTTON);
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_SIGN, ModItems.CRACKED_STONE_BRICK_SIGN);
+        addDrop(ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN, ModItems.CRACKED_STONE_BRICK_SIGN);
     }
 }

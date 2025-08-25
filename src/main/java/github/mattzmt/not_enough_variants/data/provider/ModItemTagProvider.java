@@ -1,6 +1,5 @@
 package github.mattzmt.not_enough_variants.data.provider;
 
-import github.mattzmt.not_enough_variants.block.ModBlockSetType;
 import github.mattzmt.not_enough_variants.block.ModBlocks;
 import github.mattzmt.not_enough_variants.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -26,7 +25,8 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.GRANITE_DOOR.asItem())
                 .add(ModBlocks.MOSSY_COBBLESTONE_DOOR.asItem())
                 .add(ModBlocks.SMOOTH_STONE_DOOR.asItem())
-                .add(ModBlocks.STONE_BRICK_DOOR.asItem());
+                .add(ModBlocks.STONE_BRICK_DOOR.asItem())
+                .add(ModBlocks.CRACKED_STONE_BRICK_DOOR.asItem());
 
         getOrCreateTagBuilder(ItemTags.WALLS)
                 .add(ModBlocks.NETHERRACK_WALL.asItem())
@@ -42,7 +42,8 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.BAMBOO_WALL.asItem())
                 .add(ModBlocks.CRIMSON_WALL.asItem())
                 .add(ModBlocks.WARPED_WALL.asItem())
-                .add(ModBlocks.SMOOTH_STONE_WALL.asItem());
+                .add(ModBlocks.SMOOTH_STONE_WALL.asItem())
+                .add(ModBlocks.CRACKED_STONE_BRICK_WALL.asItem());
 
         getOrCreateTagBuilder(ItemTags.SIGNS)
                 .add(ModItems.NETHERRACK_SIGN)
@@ -51,7 +52,8 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModItems.GRANITE_SIGN)
                 .add(ModItems.MOSSY_COBBLESTONE_SIGN)
                 .add(ModItems.SMOOTH_STONE_SIGN)
-                .add(ModItems.STONE_BRICK_SIGN);
+                .add(ModItems.STONE_BRICK_SIGN)
+                .add(ModItems.CRACKED_STONE_BRICK_SIGN);
 
         getOrCreateTagBuilder(ItemTags.FENCES)
                 .add(ModBlocks.NETHERRACK_FENCE.asItem())
@@ -60,7 +62,8 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.GRANITE_FENCE.asItem())
                 .add(ModBlocks.MOSSY_COBBLESTONE_FENCE.asItem())
                 .add(ModBlocks.SMOOTH_STONE_FENCE.asItem())
-                .add(ModBlocks.STONE_BRICK_FENCE.asItem());
+                .add(ModBlocks.STONE_BRICK_FENCE.asItem())
+                .add(ModBlocks.CRACKED_STONE_BRICK_FENCE.asItem());
 
         getOrCreateTagBuilder(ItemTags.FENCE_GATES)
                 .add(ModBlocks.NETHERRACK_FENCE_GATE.asItem())
@@ -69,14 +72,17 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.GRANITE_FENCE_GATE.asItem())
                 .add(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE.asItem())
                 .add(ModBlocks.SMOOTH_STONE_FENCE_GATE.asItem())
-                .add(ModBlocks.STONE_BRICK_FENCE_GATE.asItem());
+                .add(ModBlocks.STONE_BRICK_FENCE_GATE.asItem())
+                .add(ModBlocks.CRACKED_STONE_BRICK_FENCE_GATE.asItem());
 
         getOrCreateTagBuilder(ItemTags.STAIRS)
                 .add(ModBlocks.NETHERRACK_STAIRS.asItem())
-                .add(ModBlocks.SMOOTH_STONE_STAIRS.asItem());
+                .add(ModBlocks.SMOOTH_STONE_STAIRS.asItem())
+                .add(ModBlocks.CRACKED_STONE_BRICK_STAIRS.asItem());
 
         getOrCreateTagBuilder(ItemTags.SLABS)
-                .add(ModBlocks.NETHERRACK_SLAB.asItem());
+                .add(ModBlocks.NETHERRACK_SLAB.asItem())
+                .add(ModBlocks.CRACKED_STONE_BRICK_SLAB.asItem());
 
         getOrCreateTagBuilder(ItemTags.TRAPDOORS)
                 .add(ModBlocks.NETHERRACK_TRAPDOOR.asItem())
@@ -85,7 +91,8 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.GRANITE_TRAPDOOR.asItem())
                 .add(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR.asItem())
                 .add(ModBlocks.SMOOTH_STONE_TRAPDOOR.asItem())
-                .add(ModBlocks.STONE_BRICK_TRAPDOOR.asItem());
+                .add(ModBlocks.STONE_BRICK_TRAPDOOR.asItem())
+                .add(ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR.asItem());
 
         getOrCreateTagBuilder(ItemTags.BUTTONS)
                 .add(ModBlocks.NETHERRACK_BUTTON.asItem())
@@ -93,6 +100,7 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.GRANITE_BUTTON.asItem())
                 .add(ModBlocks.MOSSY_COBBLESTONE_BUTTON.asItem())
                 .add(ModBlocks.SMOOTH_STONE_BUTTON.asItem())
-                .add(ModBlocks.STONE_BRICK_BUTTON.asItem());
+                .add(ModBlocks.STONE_BRICK_BUTTON.asItem())
+                .add(ModBlocks.CRACKED_STONE_BRICK_BUTTON.asItem());
     }
 }

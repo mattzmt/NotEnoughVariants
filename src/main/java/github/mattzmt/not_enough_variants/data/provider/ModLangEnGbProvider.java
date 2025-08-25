@@ -40,6 +40,7 @@ public class ModLangEnGbProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.MOSSY_COBBLESTONE_SIGN, "Mossy Cobblestone Sign");
         translationBuilder.add(ModItems.SMOOTH_STONE_SIGN, "Smooth Stone Sign");
         translationBuilder.add(ModItems.STONE_BRICK_SIGN, "Stone Brick Sign");
+        translationBuilder.add(ModItems.CRACKED_STONE_BRICK_SIGN, "Cracked Stone Brick Sign");
 
         //BLOCKS
         translationBuilder.add(ModBlocks.NETHERRACK_DOOR, "Netherrack Door");
@@ -106,5 +107,15 @@ public class ModLangEnGbProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.STONE_BRICK_TRAPDOOR, "Stone Brick Trapdoor");
         translationBuilder.add(ModBlocks.STONE_BRICK_PRESSURE_PLATE, "Stone Brick Pressure Plate");
         translationBuilder.add(ModBlocks.STONE_BRICK_BUTTON, "Stone Brick Button");
+
+        translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_DOOR, "Cracked Stone Brick Door");
+        translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_WALL, "Cracked Stone Brick Wall");
+        translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_FENCE, "Cracked Stone Brick Fence");
+        translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_FENCE_GATE, "Cracked Stone Brick Fence Gate");
+        translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_STAIRS, "Cracked Stone Brick Stairs");
+        translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_SLAB, "Cracked Stone Brick Slab");
+        translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR, "Cracked Stone Brick Trapdoor");
+        translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE, "Cracked Stone Brick Pressure Plate");
+        translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_BUTTON, "Cracked Stone Brick Button");
     }
 }

@@ -38,7 +38,7 @@ public class ModBlocks {
 
     public static final SlabBlock NETHERRACK_SLAB = registerWithItem(
             "netherrack_slab",
-            newModSlab(Blocks.NETHERRACK, true, 0.4f, BlockSoundGroup.NETHERRACK, false));
+            newModSlab(Blocks.NETHERRACK, true, 0.9f, 0.4f, BlockSoundGroup.NETHERRACK, false));
 
     public static final TrapdoorBlock NETHERRACK_TRAPDOOR = registerWithItem(
             "netherrack_trapdoor",
@@ -321,6 +321,53 @@ public class ModBlocks {
             "stone_brick_wall_sign",
             newModWallSign(STONE_BRICK_SIGN_TEXTURE, ModBlocks.STONE_BRICK_SIGN));
 
+    //CRACKED STONE BRICK VARIANTS
+    public static final DoorBlock CRACKED_STONE_BRICK_DOOR = registerWithItem(
+            "cracked_stone_brick_door",
+            newModDoor(ModBlockSetType.STONE, Blocks.CRACKED_STONE_BRICKS, false, 2.5f, 6, false));
+
+    public static final WallBlock CRACKED_STONE_BRICK_WALL = registerWithItem(
+            "cracked_stone_brick_wall",
+            newModWall(Blocks.CRACKED_STONE_BRICKS));
+
+    public static final FenceBlock CRACKED_STONE_BRICK_FENCE = registerWithItem(
+            "cracked_stone_brick_fence",
+            newModFence(Blocks.CRACKED_STONE_BRICKS, true, 1.5f, 6, BlockSoundGroup.STONE, false));
+
+    public static final FenceGateBlock CRACKED_STONE_BRICK_FENCE_GATE = registerWithItem(
+            "cracked_stone_brick_fence_gate",
+            newModFenceGate(ModWoodType.STONE, Blocks.CRACKED_STONE_BRICKS, true, 1.5f, 6, false));
+
+    public static final StairsBlock CRACKED_STONE_BRICK_STAIRS = registerWithItem(
+            "cracked_stone_brick_stairs",
+            newModStairs(Blocks.CRACKED_STONE_BRICKS));
+
+    public static final SlabBlock CRACKED_STONE_BRICK_SLAB = registerWithItem(
+            "cracked_stone_brick_slab",
+            newModSlab(Blocks.CRACKED_STONE_BRICKS, true, 2, 6, BlockSoundGroup.STONE, false));
+
+    public static final TrapdoorBlock CRACKED_STONE_BRICK_TRAPDOOR = registerWithItem(
+            "cracked_stone_brick_trapdoor",
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.CRACKED_STONE_BRICKS, true, 2.5f, 6));
+
+    public static final PressurePlateBlock CRACKED_STONE_BRICK_PRESSURE_PLATE = registerWithItem(
+            "cracked_stone_brick_pressure_plate",
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.CRACKED_STONE_BRICKS));
+
+    public static final ButtonBlock CRACKED_STONE_BRICK_BUTTON = registerWithItem(
+            "cracked_stone_brick_button",
+            newModButton(ModBlockSetType.STONE, 20, Blocks.CRACKED_STONE_BRICKS));
+
+    public static final Identifier CRACKED_STONE_BRICK_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/cracked_stone_bricks");
+
+    public static final TerraformSignBlock CRACKED_STONE_BRICK_SIGN = register(
+            "cracked_stone_brick_sign",
+            newModSign(CRACKED_STONE_BRICK_SIGN_TEXTURE, Blocks.CRACKED_STONE_BRICKS, 1.5f, 2, false, BlockSoundGroup.STONE));
+
+    public static final TerraformWallSignBlock CRACKED_STONE_BRICK_WALL_SIGN = register(
+            "cracked_stone_brick_wall_sign",
+            newModWallSign(CRACKED_STONE_BRICK_SIGN_TEXTURE, ModBlocks.CRACKED_STONE_BRICK_SIGN));
+
     public static <T extends Block> T register(String name, T block) {
         return Registry.register(Registries.BLOCK, NotEnoughVariants.id(name), block);
     }
@@ -575,8 +622,8 @@ public class ModBlocks {
         return new TerraformSignBlock(texture, settings);
     }
 
-    private static TerraformWallSignBlock newModWallSign(Identifier texture, Block base) {
-        return new TerraformWallSignBlock(texture, AbstractBlock.Settings.copy(base));
+    private static TerraformWallSignBlock newModWallSign(Identifier texture, Block modBlockBase) {
+        return new TerraformWallSignBlock(texture, AbstractBlock.Settings.copy(modBlockBase));
     }
 
     public static void load() {}
