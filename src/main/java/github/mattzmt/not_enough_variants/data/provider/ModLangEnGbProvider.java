@@ -38,6 +38,8 @@ public class ModLangEnGbProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.COBBLESTONE_SIGN, "Cobblestone Sign");
         translationBuilder.add(ModItems.GRANITE_SIGN, "Granite Sign");
         translationBuilder.add(ModItems.MOSSY_COBBLESTONE_SIGN, "Mossy Cobblestone Sign");
+        translationBuilder.add(ModItems.SMOOTH_STONE_SIGN, "Smooth Stone Sign");
+        translationBuilder.add(ModItems.STONE_BRICK_SIGN, "Stone Brick Sign");
 
         //BLOCKS
         translationBuilder.add(ModBlocks.NETHERRACK_DOOR, "Netherrack Door");
@@ -88,5 +90,21 @@ public class ModLangEnGbProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR, "Mossy Cobblestone Trapdoor");
         translationBuilder.add(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE, "Mossy Cobblestone Pressure Plate");
         translationBuilder.add(ModBlocks.MOSSY_COBBLESTONE_BUTTON, "Mossy Cobblestone Button");
+
+        translationBuilder.add(ModBlocks.SMOOTH_STONE_DOOR, "Smooth Stone Door");
+        translationBuilder.add(ModBlocks.SMOOTH_STONE_WALL, "Smooth Stone Wall");
+        translationBuilder.add(ModBlocks.SMOOTH_STONE_FENCE, "Smooth Stone Fence");
+        translationBuilder.add(ModBlocks.SMOOTH_STONE_FENCE_GATE, "Smooth Stone Fence Gate");
+        translationBuilder.add(ModBlocks.SMOOTH_STONE_STAIRS, "Smooth Stone Stairs");
+        translationBuilder.add(ModBlocks.SMOOTH_STONE_TRAPDOOR, "Smooth Stone Trapdoor");
+        translationBuilder.add(ModBlocks.SMOOTH_STONE_PRESSURE_PLATE, "Smooth Stone Pressure Plate");
+        translationBuilder.add(ModBlocks.SMOOTH_STONE_BUTTON, "Smooth Stone Button");
+
+        translationBuilder.add(ModBlocks.STONE_BRICK_DOOR, "Stone Brick Door");
+        translationBuilder.add(ModBlocks.STONE_BRICK_FENCE, "Stone Brick Fence");
+        translationBuilder.add(ModBlocks.STONE_BRICK_FENCE_GATE, "Stone Brick Fence Gate");
+        translationBuilder.add(ModBlocks.STONE_BRICK_TRAPDOOR, "Stone Brick Trapdoor");
+        translationBuilder.add(ModBlocks.STONE_BRICK_PRESSURE_PLATE, "Stone Brick Pressure Plate");
+        translationBuilder.add(ModBlocks.STONE_BRICK_BUTTON, "Stone Brick Button");
     }
 }

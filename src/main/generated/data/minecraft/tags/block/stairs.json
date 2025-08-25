@@ -1,5 +1,6 @@
 {
   "values": [
-    "not_enough_variants:netherrack_stairs"
+    "not_enough_variants:netherrack_stairs",
+    "not_enough_variants:smooth_stone_stairs"
   ]
 }

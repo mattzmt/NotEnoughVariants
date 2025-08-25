@@ -4,6 +4,8 @@
     "not_enough_variants:stone_fence_gate",
     "not_enough_variants:cobblestone_fence_gate",
     "not_enough_variants:granite_fence_gate",
-    "not_enough_variants:mossy_cobblestone_fence_gate"
+    "not_enough_variants:mossy_cobblestone_fence_gate",
+    "not_enough_variants:smooth_stone_fence_gate",
+    "not_enough_variants:stone_brick_fence_gate"
   ]
 }

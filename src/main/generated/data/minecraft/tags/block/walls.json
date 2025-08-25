@@ -12,6 +12,7 @@
     "not_enough_variants:cherry_wall",
     "not_enough_variants:bamboo_wall",
     "not_enough_variants:crimson_wall",
-    "not_enough_variants:warped_wall"
+    "not_enough_variants:warped_wall",
+    "not_enough_variants:smooth_stone_wall"
   ]
 }

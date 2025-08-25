@@ -63,17 +63,6 @@ public class ModModelProvider extends FabricModelProvider {
                 .build();
         blockStateModelGenerator.registerCubeAllModelTexturePool(graniteFamily.getBaseBlock()).family(graniteFamily);
 
-        var mossyCobblestoneFamily = new BlockFamily.Builder(Blocks.MOSSY_COBBLESTONE)
-                .door(ModBlocks.MOSSY_COBBLESTONE_DOOR)
-                .sign(ModBlocks.MOSSY_COBBLESTONE_SIGN, ModBlocks.MOSSY_COBBLESTONE_WALL_SIGN)
-                .fence(ModBlocks.MOSSY_COBBLESTONE_FENCE)
-                .fenceGate(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE)
-                .trapdoor(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR)
-                .pressurePlate(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE)
-                .button(ModBlocks.MOSSY_COBBLESTONE_BUTTON)
-                .build();
-        blockStateModelGenerator.registerCubeAllModelTexturePool(mossyCobblestoneFamily.getBaseBlock()).family(mossyCobblestoneFamily);
-
         blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.OAK_PLANKS)
                 .wall(ModBlocks.OAK_WALL);
         blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SPRUCE_PLANKS)
@@ -96,6 +85,41 @@ public class ModModelProvider extends FabricModelProvider {
                 .wall(ModBlocks.CRIMSON_WALL);
         blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WARPED_PLANKS)
                 .wall(ModBlocks.WARPED_WALL);
+
+        var mossyCobblestoneFamily = new BlockFamily.Builder(Blocks.MOSSY_COBBLESTONE)
+                .door(ModBlocks.MOSSY_COBBLESTONE_DOOR)
+                .sign(ModBlocks.MOSSY_COBBLESTONE_SIGN, ModBlocks.MOSSY_COBBLESTONE_WALL_SIGN)
+                .fence(ModBlocks.MOSSY_COBBLESTONE_FENCE)
+                .fenceGate(ModBlocks.MOSSY_COBBLESTONE_FENCE_GATE)
+                .trapdoor(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR)
+                .pressurePlate(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE)
+                .button(ModBlocks.MOSSY_COBBLESTONE_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(mossyCobblestoneFamily.getBaseBlock()).family(mossyCobblestoneFamily);
+
+        var smoothStoneFamily = new BlockFamily.Builder(Blocks.SMOOTH_STONE)
+                .door(ModBlocks.SMOOTH_STONE_DOOR)
+                .wall(ModBlocks.SMOOTH_STONE_WALL)
+                .sign(ModBlocks.SMOOTH_STONE_SIGN, ModBlocks.SMOOTH_STONE_WALL_SIGN)
+                .fence(ModBlocks.SMOOTH_STONE_FENCE)
+                .fenceGate(ModBlocks.SMOOTH_STONE_FENCE_GATE)
+                .stairs(ModBlocks.SMOOTH_STONE_STAIRS)
+                .trapdoor(ModBlocks.SMOOTH_STONE_TRAPDOOR)
+                .pressurePlate(ModBlocks.SMOOTH_STONE_PRESSURE_PLATE)
+                .button(ModBlocks.SMOOTH_STONE_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(smoothStoneFamily.getBaseBlock()).family(smoothStoneFamily);
+
+        var stoneBrickFamily = new BlockFamily.Builder(Blocks.STONE_BRICKS)
+                .door(ModBlocks.STONE_BRICK_DOOR)
+                .sign(ModBlocks.STONE_BRICK_SIGN, ModBlocks.STONE_BRICK_WALL_SIGN)
+                .fence(ModBlocks.STONE_BRICK_FENCE)
+                .fenceGate(ModBlocks.STONE_BRICK_FENCE_GATE)
+                .trapdoor(ModBlocks.STONE_BRICK_TRAPDOOR)
+                .pressurePlate(ModBlocks.STONE_BRICK_PRESSURE_PLATE)
+                .button(ModBlocks.STONE_BRICK_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(stoneBrickFamily.getBaseBlock()).family(stoneBrickFamily);
     }
 
     @Override

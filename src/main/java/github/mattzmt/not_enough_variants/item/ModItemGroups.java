@@ -69,6 +69,24 @@ public class ModItemGroups {
                 entries.add(ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR);
                 entries.add(ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE);
                 entries.add(ModBlocks.MOSSY_COBBLESTONE_BUTTON);
+
+                entries.add(ModBlocks.SMOOTH_STONE_DOOR);
+                entries.add(ModBlocks.SMOOTH_STONE_WALL);
+                entries.add(ModItems.SMOOTH_STONE_SIGN);
+                entries.add(ModBlocks.SMOOTH_STONE_FENCE);
+                entries.add(ModBlocks.SMOOTH_STONE_FENCE_GATE);
+                entries.add(ModBlocks.SMOOTH_STONE_STAIRS);
+                entries.add(ModBlocks.SMOOTH_STONE_TRAPDOOR);
+                entries.add(ModBlocks.SMOOTH_STONE_PRESSURE_PLATE);
+                entries.add(ModBlocks.SMOOTH_STONE_BUTTON);
+
+                entries.add(ModBlocks.STONE_BRICK_DOOR);
+                entries.add(ModItems.STONE_BRICK_SIGN);
+                entries.add(ModBlocks.STONE_BRICK_FENCE);
+                entries.add(ModBlocks.STONE_BRICK_FENCE_GATE);
+                entries.add(ModBlocks.STONE_BRICK_TRAPDOOR);
+                entries.add(ModBlocks.STONE_BRICK_PRESSURE_PLATE);
+                entries.add(ModBlocks.STONE_BRICK_BUTTON);
             }).build()
     );
 

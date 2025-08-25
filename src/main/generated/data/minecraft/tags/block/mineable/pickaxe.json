@@ -41,6 +41,24 @@
     "not_enough_variants:mossy_cobblestone_pressure_plate",
     "not_enough_variants:mossy_cobblestone_button",
     "not_enough_variants:mossy_cobblestone_sign",
-    "not_enough_variants:mossy_cobblestone_wall_sign"
+    "not_enough_variants:mossy_cobblestone_wall_sign",
+    "not_enough_variants:smooth_stone_door",
+    "not_enough_variants:smooth_stone_wall",
+    "not_enough_variants:smooth_stone_fence",
+    "not_enough_variants:smooth_stone_fence_gate",
+    "not_enough_variants:smooth_stone_stairs",
+    "not_enough_variants:smooth_stone_trapdoor",
+    "not_enough_variants:smooth_stone_pressure_plate",
+    "not_enough_variants:smooth_stone_button",
+    "not_enough_variants:smooth_stone_sign",
+    "not_enough_variants:smooth_stone_wall_sign",
+    "not_enough_variants:stone_brick_door",
+    "not_enough_variants:stone_brick_fence",
+    "not_enough_variants:stone_brick_fence_gate",
+    "not_enough_variants:stone_brick_trapdoor",
+    "not_enough_variants:stone_brick_pressure_plate",
+    "not_enough_variants:stone_brick_button",
+    "not_enough_variants:stone_brick_sign",
+    "not_enough_variants:stone_brick_wall_sign"
   ]
 }

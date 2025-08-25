@@ -64,5 +64,25 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MOSSY_COBBLESTONE_BUTTON);
         addDrop(ModBlocks.MOSSY_COBBLESTONE_SIGN, ModItems.MOSSY_COBBLESTONE_SIGN);
         addDrop(ModBlocks.MOSSY_COBBLESTONE_WALL_SIGN, ModItems.MOSSY_COBBLESTONE_SIGN);
+
+        addDrop(ModBlocks.SMOOTH_STONE_DOOR, doorDrops(ModBlocks.SMOOTH_STONE_DOOR));
+        addDrop(ModBlocks.SMOOTH_STONE_WALL);
+        addDrop(ModBlocks.SMOOTH_STONE_FENCE);
+        addDrop(ModBlocks.SMOOTH_STONE_FENCE_GATE);
+        addDrop(ModBlocks.SMOOTH_STONE_STAIRS);
+        addDrop(ModBlocks.SMOOTH_STONE_TRAPDOOR);
+        addDrop(ModBlocks.SMOOTH_STONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.SMOOTH_STONE_BUTTON);
+        addDrop(ModBlocks.SMOOTH_STONE_SIGN, ModItems.SMOOTH_STONE_SIGN);
+        addDrop(ModBlocks.SMOOTH_STONE_WALL_SIGN, ModItems.SMOOTH_STONE_SIGN);
+
+        addDrop(ModBlocks.STONE_BRICK_DOOR, doorDrops(ModBlocks.STONE_BRICK_DOOR));
+        addDrop(ModBlocks.STONE_BRICK_FENCE);
+        addDrop(ModBlocks.STONE_BRICK_FENCE_GATE);
+        addDrop(ModBlocks.STONE_BRICK_TRAPDOOR);
+        addDrop(ModBlocks.STONE_BRICK_PRESSURE_PLATE);
+        addDrop(ModBlocks.STONE_BRICK_BUTTON);
+        addDrop(ModBlocks.STONE_BRICK_SIGN, ModItems.STONE_BRICK_SIGN);
+        addDrop(ModBlocks.STONE_BRICK_WALL_SIGN, ModItems.STONE_BRICK_SIGN);
     }
 }
