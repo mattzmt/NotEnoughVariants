@@ -27,6 +27,8 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.SMOOTH_STONE_DOOR.asItem())
                 .add(ModBlocks.STONE_BRICK_DOOR.asItem())
                 .add(ModBlocks.CRACKED_STONE_BRICK_DOOR.asItem())
+                .add(ModBlocks.CHISELED_STONE_BRICK_DOOR.asItem())
+                .add(ModBlocks.MOSSY_STONE_BRICK_DOOR.asItem())
                 .add(ModBlocks.NETHERITE_DOOR.asItem());
 
         getOrCreateTagBuilder(ItemTags.WALLS)
@@ -45,6 +47,7 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.WARPED_WALL.asItem())
                 .add(ModBlocks.SMOOTH_STONE_WALL.asItem())
                 .add(ModBlocks.CRACKED_STONE_BRICK_WALL.asItem())
+                .add(ModBlocks.CHISELED_STONE_BRICK_WALL.asItem())
                 .add(ModBlocks.NETHERITE_WALL.asItem());
 
         getOrCreateTagBuilder(ItemTags.SIGNS)
@@ -56,6 +59,8 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModItems.SMOOTH_STONE_SIGN)
                 .add(ModItems.STONE_BRICK_SIGN)
                 .add(ModItems.CRACKED_STONE_BRICK_SIGN)
+                .add(ModItems.CHISELED_STONE_BRICK_SIGN)
+                .add(ModItems.MOSSY_STONE_BRICK_SIGN)
                 .add(ModItems.NETHERITE_SIGN);
 
         getOrCreateTagBuilder(ItemTags.FENCES)
@@ -67,6 +72,8 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.SMOOTH_STONE_FENCE.asItem())
                 .add(ModBlocks.STONE_BRICK_FENCE.asItem())
                 .add(ModBlocks.CRACKED_STONE_BRICK_FENCE.asItem())
+                .add(ModBlocks.CHISELED_STONE_BRICK_FENCE.asItem())
+                .add(ModBlocks.MOSSY_STONE_BRICK_FENCE.asItem())
                 .add(ModBlocks.NETHERITE_FENCE.asItem());
 
         getOrCreateTagBuilder(ItemTags.FENCE_GATES)
@@ -78,17 +85,21 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.SMOOTH_STONE_FENCE_GATE.asItem())
                 .add(ModBlocks.STONE_BRICK_FENCE_GATE.asItem())
                 .add(ModBlocks.CRACKED_STONE_BRICK_FENCE_GATE.asItem())
+                .add(ModBlocks.CHISELED_STONE_BRICK_FENCE_GATE.asItem())
+                .add(ModBlocks.MOSSY_STONE_BRICK_FENCE_GATE.asItem())
                 .add(ModBlocks.NETHERITE_FENCE_GATE.asItem());
 
         getOrCreateTagBuilder(ItemTags.STAIRS)
                 .add(ModBlocks.NETHERRACK_STAIRS.asItem())
                 .add(ModBlocks.SMOOTH_STONE_STAIRS.asItem())
                 .add(ModBlocks.CRACKED_STONE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.CHISELED_STONE_BRICK_STAIRS.asItem())
                 .add(ModBlocks.NETHERITE_STAIRS.asItem());
 
         getOrCreateTagBuilder(ItemTags.SLABS)
                 .add(ModBlocks.NETHERRACK_SLAB.asItem())
                 .add(ModBlocks.CRACKED_STONE_BRICK_SLAB.asItem())
+                .add(ModBlocks.CHISELED_STONE_BRICK_SLAB.asItem())
                 .add(ModBlocks.NETHERITE_SLAB.asItem());
 
         getOrCreateTagBuilder(ItemTags.TRAPDOORS)
@@ -100,6 +111,8 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.SMOOTH_STONE_TRAPDOOR.asItem())
                 .add(ModBlocks.STONE_BRICK_TRAPDOOR.asItem())
                 .add(ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR.asItem())
+                .add(ModBlocks.CHISELED_STONE_BRICK_TRAPDOOR.asItem())
+                .add(ModBlocks.MOSSY_STONE_BRICK_TRAPDOOR.asItem())
                 .add(ModBlocks.NETHERITE_TRAPDOOR.asItem());
 
         getOrCreateTagBuilder(ItemTags.BUTTONS)
@@ -110,6 +123,8 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.SMOOTH_STONE_BUTTON.asItem())
                 .add(ModBlocks.STONE_BRICK_BUTTON.asItem())
                 .add(ModBlocks.CRACKED_STONE_BRICK_BUTTON.asItem())
+                .add(ModBlocks.CHISELED_STONE_BRICK_BUTTON.asItem())
+                .add(ModBlocks.MOSSY_STONE_BRICK_BUTTON.asItem())
                 .add(ModBlocks.NETHERITE_BUTTON.asItem());
     }
 }

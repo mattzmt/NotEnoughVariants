@@ -7,7 +7,9 @@
     "not_enough_variants:mossy_cobblestone_wall_sign",
     "not_enough_variants:smooth_stone_wall_sign",
     "not_enough_variants:stone_brick_wall_sign",
-    "not_enough_variants:cracked_stone_brick_wall_sign",
+    "not_enough_variants:chiseled_stone_brick_wall_sign",
+    "not_enough_variants:mossy_stone_brick_wall_sign",
+    "not_enough_variants:chiseled_stone_brick_wall_sign",
     "not_enough_variants:netherite_wall_sign"
   ]
 }

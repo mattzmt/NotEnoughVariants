@@ -41,6 +41,8 @@ public class ModLangEnGbProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.SMOOTH_STONE_SIGN, "Smooth Stone Sign");
         translationBuilder.add(ModItems.STONE_BRICK_SIGN, "Stone Brick Sign");
         translationBuilder.add(ModItems.CRACKED_STONE_BRICK_SIGN, "Cracked Stone Brick Sign");
+        translationBuilder.add(ModItems.CHISELED_STONE_BRICK_SIGN, "Chiselled Stone Brick Sign");
+        translationBuilder.add(ModItems.MOSSY_STONE_BRICK_SIGN, "Mossy Stone Brick Sign");
         translationBuilder.add(ModItems.NETHERITE_SIGN, "Swaggiest Sign Ever");
 
         //BLOCKS
@@ -118,6 +120,23 @@ public class ModLangEnGbProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR, "Cracked Stone Brick Trapdoor");
         translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE, "Cracked Stone Brick Pressure Plate");
         translationBuilder.add(ModBlocks.CRACKED_STONE_BRICK_BUTTON, "Cracked Stone Brick Button");
+
+        translationBuilder.add(ModBlocks.CHISELED_STONE_BRICK_DOOR, "Chiselled Stone Brick Door");
+        translationBuilder.add(ModBlocks.CHISELED_STONE_BRICK_WALL, "Chiselled Stone Brick Wall");
+        translationBuilder.add(ModBlocks.CHISELED_STONE_BRICK_FENCE, "Chiselled Stone Brick Fence");
+        translationBuilder.add(ModBlocks.CHISELED_STONE_BRICK_FENCE_GATE, "Chiselled Stone Brick Fence Gate");
+        translationBuilder.add(ModBlocks.CHISELED_STONE_BRICK_STAIRS, "Chiselled Stone Brick Stairs");
+        translationBuilder.add(ModBlocks.CHISELED_STONE_BRICK_SLAB, "Chiselled Stone Brick Slab");
+        translationBuilder.add(ModBlocks.CHISELED_STONE_BRICK_TRAPDOOR, "Chiselled Stone Brick Trapdoor");
+        translationBuilder.add(ModBlocks.CHISELED_STONE_BRICK_PRESSURE_PLATE, "Chiselled Stone Brick Pressure Plate");
+        translationBuilder.add(ModBlocks.CHISELED_STONE_BRICK_BUTTON, "Chiselled Stone Brick Button");
+
+        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICK_DOOR, "Mossy Stone Brick Door");
+        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICK_FENCE, "Mossy Stone Brick Fence");
+        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICK_FENCE_GATE, "Mossy Stone Brick Fence Gate");
+        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICK_TRAPDOOR, "Mossy Stone Brick Trapdoor");
+        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICK_PRESSURE_PLATE, "Mossy Stone Brick Pressure Plate");
+        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICK_BUTTON, "Mossy Stone Brick Button");
 
         translationBuilder.add(ModBlocks.NETHERITE_DOOR, "Swaggiest Door Ever");
         translationBuilder.add(ModBlocks.NETHERITE_WALL, "Swaggiest Wall Ever");

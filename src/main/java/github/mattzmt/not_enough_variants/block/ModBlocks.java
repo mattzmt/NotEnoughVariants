@@ -365,8 +365,90 @@ public class ModBlocks {
             newModSign(CRACKED_STONE_BRICK_SIGN_TEXTURE, Blocks.CRACKED_STONE_BRICKS, 1.5f, 2, BlockSoundGroup.STONE));
 
     public static final TerraformWallSignBlock CRACKED_STONE_BRICK_WALL_SIGN = register(
-            "cracked_stone_brick_wall_sign",
+            "chiseled_stone_brick_wall_sign",
             newModWallSign(CRACKED_STONE_BRICK_SIGN_TEXTURE, ModBlocks.CRACKED_STONE_BRICK_SIGN));
+
+    //CHISELED STONE BRICK VARIANTS
+    public static final DoorBlock CHISELED_STONE_BRICK_DOOR = registerWithItem(
+            "chiseled_stone_brick_door",
+            newModDoor(ModBlockSetType.STONE, Blocks.CHISELED_STONE_BRICKS, false, 2.5f, 6));
+
+    public static final WallBlock CHISELED_STONE_BRICK_WALL = registerWithItem(
+            "chiseled_stone_brick_wall",
+            newModWall(Blocks.CHISELED_STONE_BRICKS));
+
+    public static final FenceBlock CHISELED_STONE_BRICK_FENCE = registerWithItem(
+            "chiseled_stone_brick_fence",
+            newModFence(Blocks.CHISELED_STONE_BRICKS, 1.5f, 6, BlockSoundGroup.STONE));
+
+    public static final FenceGateBlock CHISELED_STONE_BRICK_FENCE_GATE = registerWithItem(
+            "chiseled_stone_brick_fence_gate",
+            newModFenceGate(ModWoodType.STONE, Blocks.CHISELED_STONE_BRICKS, 1.5f, 6));
+
+    public static final StairsBlock CHISELED_STONE_BRICK_STAIRS = registerWithItem(
+            "chiseled_stone_brick_stairs",
+            newModStairs(Blocks.CHISELED_STONE_BRICKS));
+
+    public static final SlabBlock CHISELED_STONE_BRICK_SLAB = registerWithItem(
+            "chiseled_stone_brick_slab",
+            newModSlab(Blocks.CHISELED_STONE_BRICKS, 2, 6, BlockSoundGroup.STONE));
+
+    public static final TrapdoorBlock CHISELED_STONE_BRICK_TRAPDOOR = registerWithItem(
+            "chiseled_stone_brick_trapdoor",
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.CHISELED_STONE_BRICKS, 2.5f, 6));
+
+    public static final PressurePlateBlock CHISELED_STONE_BRICK_PRESSURE_PLATE = registerWithItem(
+            "chiseled_stone_brick_pressure_plate",
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.CHISELED_STONE_BRICKS));
+
+    public static final ButtonBlock CHISELED_STONE_BRICK_BUTTON = registerWithItem(
+            "chiseled_stone_brick_button",
+            newModButton(ModBlockSetType.STONE, 20, Blocks.CHISELED_STONE_BRICKS));
+
+    public static final Identifier CHISELED_STONE_BRICK_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/chiseled_stone_bricks");
+
+    public static final TerraformSignBlock CHISELED_STONE_BRICK_SIGN = register(
+            "chiseled_stone_brick_sign",
+            newModSign(CHISELED_STONE_BRICK_SIGN_TEXTURE, Blocks.CHISELED_STONE_BRICKS, 1.5f, 2, BlockSoundGroup.STONE));
+
+    public static final TerraformWallSignBlock CHISELED_STONE_BRICK_WALL_SIGN = register(
+            "chiseled_stone_brick_wall_sign",
+            newModWallSign(CHISELED_STONE_BRICK_SIGN_TEXTURE, ModBlocks.CHISELED_STONE_BRICK_SIGN));
+
+    //MOSSY STONE BRICK VARIANTS
+    public static final DoorBlock MOSSY_STONE_BRICK_DOOR = registerWithItem(
+            "mossy_stone_brick_door",
+            newModDoor(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS, false, 2.5f, 6));
+
+    public static final FenceBlock MOSSY_STONE_BRICK_FENCE = registerWithItem(
+            "mossy_stone_brick_fence",
+            newModFence(Blocks.MOSSY_STONE_BRICKS, 1.5f, 6, BlockSoundGroup.STONE));
+
+    public static final FenceGateBlock MOSSY_STONE_BRICK_FENCE_GATE = registerWithItem(
+            "mossy_stone_brick_fence_gate",
+            newModFenceGate(ModWoodType.STONE, Blocks.MOSSY_STONE_BRICKS, 1.5f, 6));
+
+    public static final TrapdoorBlock MOSSY_STONE_BRICK_TRAPDOOR = registerWithItem(
+            "mossy_stone_brick_trapdoor",
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS, 2.5f, 6));
+
+    public static final PressurePlateBlock MOSSY_STONE_BRICK_PRESSURE_PLATE = registerWithItem(
+            "mossy_stone_brick_pressure_plate",
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS));
+
+    public static final ButtonBlock MOSSY_STONE_BRICK_BUTTON = registerWithItem(
+            "mossy_stone_brick_button",
+            newModButton(ModBlockSetType.STONE, 20, Blocks.MOSSY_STONE_BRICKS));
+
+    public static final Identifier MOSSY_STONE_BRICK_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/mossy_stone_bricks");
+
+    public static final TerraformSignBlock MOSSY_STONE_BRICK_SIGN = register(
+            "mossy_stone_brick_sign",
+            newModSign(MOSSY_STONE_BRICK_SIGN_TEXTURE, Blocks.MOSSY_STONE_BRICKS, 1.5f, 2, BlockSoundGroup.STONE));
+
+    public static final TerraformWallSignBlock MOSSY_STONE_BRICK_WALL_SIGN = register(
+            "mossy_stone_brick_wall_sign",
+            newModWallSign(MOSSY_STONE_BRICK_SIGN_TEXTURE, ModBlocks.MOSSY_STONE_BRICK_SIGN));
 
     //SWAGGIEST VARIANTS EVER
     public static final DoorBlock NETHERITE_DOOR = registerWithItem(

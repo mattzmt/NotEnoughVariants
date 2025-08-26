@@ -135,6 +135,31 @@ public class ModModelProvider extends FabricModelProvider {
                 .build();
         blockStateModelGenerator.registerCubeAllModelTexturePool(crackedStoneBrickFamily.getBaseBlock()).family(crackedStoneBrickFamily);
 
+        var chiseledStoneBrickFamily = new BlockFamily.Builder(Blocks.CHISELED_STONE_BRICKS)
+                .door(ModBlocks.CHISELED_STONE_BRICK_DOOR)
+                .wall(ModBlocks.CHISELED_STONE_BRICK_WALL)
+                .sign(ModBlocks.CHISELED_STONE_BRICK_SIGN, ModBlocks.CHISELED_STONE_BRICK_WALL_SIGN)
+                .fence(ModBlocks.CHISELED_STONE_BRICK_FENCE)
+                .fenceGate(ModBlocks.CHISELED_STONE_BRICK_FENCE_GATE)
+                .stairs(ModBlocks.CHISELED_STONE_BRICK_STAIRS)
+                .slab(ModBlocks.CHISELED_STONE_BRICK_SLAB)
+                .trapdoor(ModBlocks.CHISELED_STONE_BRICK_TRAPDOOR)
+                .pressurePlate(ModBlocks.CHISELED_STONE_BRICK_PRESSURE_PLATE)
+                .button(ModBlocks.CHISELED_STONE_BRICK_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(chiseledStoneBrickFamily.getBaseBlock()).family(chiseledStoneBrickFamily);
+
+        var mossyStoneBrickFamily = new BlockFamily.Builder(Blocks.MOSSY_STONE_BRICKS)
+                .door(ModBlocks.MOSSY_STONE_BRICK_DOOR)
+                .sign(ModBlocks.MOSSY_STONE_BRICK_SIGN, ModBlocks.MOSSY_STONE_BRICK_WALL_SIGN)
+                .fence(ModBlocks.MOSSY_STONE_BRICK_FENCE)
+                .fenceGate(ModBlocks.MOSSY_STONE_BRICK_FENCE_GATE)
+                .trapdoor(ModBlocks.MOSSY_STONE_BRICK_TRAPDOOR)
+                .pressurePlate(ModBlocks.MOSSY_STONE_BRICK_PRESSURE_PLATE)
+                .button(ModBlocks.MOSSY_STONE_BRICK_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(mossyStoneBrickFamily.getBaseBlock()).family(mossyStoneBrickFamily);
+
         var netheriteFamily = new BlockFamily.Builder(Blocks.NETHERITE_BLOCK)
                 .door(ModBlocks.NETHERITE_DOOR)
                 .wall(ModBlocks.NETHERITE_WALL)

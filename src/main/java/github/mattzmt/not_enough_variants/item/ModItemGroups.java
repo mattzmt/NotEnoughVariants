@@ -99,6 +99,25 @@ public class ModItemGroups {
                 entries.add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE);
                 entries.add(ModBlocks.CRACKED_STONE_BRICK_BUTTON);
 
+                entries.add(ModBlocks.CHISELED_STONE_BRICK_DOOR);
+                entries.add(ModBlocks.CHISELED_STONE_BRICK_WALL);
+                entries.add(ModItems.CHISELED_STONE_BRICK_SIGN);
+                entries.add(ModBlocks.CHISELED_STONE_BRICK_FENCE);
+                entries.add(ModBlocks.CHISELED_STONE_BRICK_FENCE_GATE);
+                entries.add(ModBlocks.CHISELED_STONE_BRICK_STAIRS);
+                entries.add(ModBlocks.CHISELED_STONE_BRICK_SLAB);
+                entries.add(ModBlocks.CHISELED_STONE_BRICK_TRAPDOOR);
+                entries.add(ModBlocks.CHISELED_STONE_BRICK_PRESSURE_PLATE);
+                entries.add(ModBlocks.CHISELED_STONE_BRICK_BUTTON);
+
+                entries.add(ModBlocks.MOSSY_STONE_BRICK_DOOR);
+                entries.add(ModItems.MOSSY_STONE_BRICK_SIGN);
+                entries.add(ModBlocks.MOSSY_STONE_BRICK_FENCE);
+                entries.add(ModBlocks.MOSSY_STONE_BRICK_FENCE_GATE);
+                entries.add(ModBlocks.MOSSY_STONE_BRICK_TRAPDOOR);
+                entries.add(ModBlocks.MOSSY_STONE_BRICK_PRESSURE_PLATE);
+                entries.add(ModBlocks.MOSSY_STONE_BRICK_BUTTON);
+
                 entries.add(ModBlocks.NETHERITE_DOOR);
                 entries.add(ModBlocks.NETHERITE_WALL);
                 entries.add(ModItems.NETHERITE_SIGN);

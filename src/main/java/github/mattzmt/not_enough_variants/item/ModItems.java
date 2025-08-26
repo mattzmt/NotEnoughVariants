@@ -74,6 +74,22 @@ public class ModItems {
                     ModBlocks.CRACKED_STONE_BRICK_SIGN, ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN));
 
 
+    public static final SignItem CHISELED_STONE_BRICK_SIGN = register(
+            "chiseled_stone_brick_sign",
+            new SignItem(
+                    new Item.Settings()
+                            .maxCount(16),
+                    ModBlocks.CHISELED_STONE_BRICK_SIGN, ModBlocks.CHISELED_STONE_BRICK_WALL_SIGN));
+
+
+    public static final SignItem MOSSY_STONE_BRICK_SIGN = register(
+            "mossy_stone_brick_sign",
+            new SignItem(
+                    new Item.Settings()
+                            .maxCount(16),
+                    ModBlocks.MOSSY_STONE_BRICK_SIGN, ModBlocks.MOSSY_STONE_BRICK_WALL_SIGN));
+
+
     public static final SignItem NETHERITE_SIGN = register(
             "netherite_sign",
             new SignItem(

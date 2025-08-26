@@ -97,6 +97,27 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CRACKED_STONE_BRICK_SIGN, ModItems.CRACKED_STONE_BRICK_SIGN);
         addDrop(ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN, ModItems.CRACKED_STONE_BRICK_SIGN);
 
+        addDrop(ModBlocks.CHISELED_STONE_BRICK_DOOR, doorDrops(ModBlocks.CHISELED_STONE_BRICK_DOOR));
+        addDrop(ModBlocks.CHISELED_STONE_BRICK_WALL);
+        addDrop(ModBlocks.CHISELED_STONE_BRICK_FENCE);
+        addDrop(ModBlocks.CHISELED_STONE_BRICK_FENCE_GATE);
+        addDrop(ModBlocks.CHISELED_STONE_BRICK_STAIRS);
+        addDrop(ModBlocks.CHISELED_STONE_BRICK_SLAB, slabDrops(ModBlocks.CHISELED_STONE_BRICK_SLAB));
+        addDrop(ModBlocks.CHISELED_STONE_BRICK_TRAPDOOR);
+        addDrop(ModBlocks.CHISELED_STONE_BRICK_PRESSURE_PLATE);
+        addDrop(ModBlocks.CHISELED_STONE_BRICK_BUTTON);
+        addDrop(ModBlocks.CHISELED_STONE_BRICK_SIGN, ModItems.CHISELED_STONE_BRICK_SIGN);
+        addDrop(ModBlocks.CHISELED_STONE_BRICK_WALL_SIGN, ModItems.CHISELED_STONE_BRICK_SIGN);
+
+        addDrop(ModBlocks.MOSSY_STONE_BRICK_DOOR, doorDrops(ModBlocks.MOSSY_STONE_BRICK_DOOR));
+        addDrop(ModBlocks.MOSSY_STONE_BRICK_FENCE);
+        addDrop(ModBlocks.MOSSY_STONE_BRICK_FENCE_GATE);
+        addDrop(ModBlocks.MOSSY_STONE_BRICK_TRAPDOOR);
+        addDrop(ModBlocks.MOSSY_STONE_BRICK_PRESSURE_PLATE);
+        addDrop(ModBlocks.MOSSY_STONE_BRICK_BUTTON);
+        addDrop(ModBlocks.MOSSY_STONE_BRICK_SIGN, ModItems.MOSSY_STONE_BRICK_SIGN);
+        addDrop(ModBlocks.MOSSY_STONE_BRICK_WALL_SIGN, ModItems.MOSSY_STONE_BRICK_SIGN);
+
         addDrop(ModBlocks.NETHERITE_DOOR, doorDrops(ModBlocks.NETHERITE_DOOR));
         addDrop(ModBlocks.NETHERITE_WALL);
         addDrop(ModBlocks.NETHERITE_FENCE);

@@ -7,6 +7,8 @@
     "not_enough_variants:smooth_stone_button",
     "not_enough_variants:stone_brick_button",
     "not_enough_variants:cracked_stone_brick_button",
+    "not_enough_variants:chiseled_stone_brick_button",
+    "not_enough_variants:mossy_stone_brick_button",
     "not_enough_variants:netherite_button"
   ]
 }
