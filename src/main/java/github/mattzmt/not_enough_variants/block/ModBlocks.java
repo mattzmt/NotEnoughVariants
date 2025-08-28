@@ -163,7 +163,7 @@ public class ModBlocks {
             "granite_wall_sign",
             newModWallSign(GRANITE_SIGN_TEXTURE, ModBlocks.GRANITE_SIGN));
 
-    //PLANKS
+    //PLANK VARIANTS
     public static final WallBlock OAK_WALL = registerWithItem(
             "oak_wall",
             newModWall(Blocks.OAK_PLANKS));
@@ -418,37 +418,111 @@ public class ModBlocks {
     //MOSSY STONE BRICK VARIANTS
     public static final DoorBlock MOSSY_STONE_BRICK_DOOR = registerWithItem(
             "mossy_stone_brick_door",
-            newModDoor(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS, false, 2.5f, 6));
+            newModDoor(ModBlockSetType.STONE, Blocks.DIORITE, false, 2.5f, 6));
 
     public static final FenceBlock MOSSY_STONE_BRICK_FENCE = registerWithItem(
             "mossy_stone_brick_fence",
-            newModFence(Blocks.MOSSY_STONE_BRICKS, 1.5f, 6, BlockSoundGroup.STONE));
+            newModFence(Blocks.DIORITE, 1.5f, 6, BlockSoundGroup.STONE));
 
     public static final FenceGateBlock MOSSY_STONE_BRICK_FENCE_GATE = registerWithItem(
             "mossy_stone_brick_fence_gate",
-            newModFenceGate(ModWoodType.STONE, Blocks.MOSSY_STONE_BRICKS, 1.5f, 6));
+            newModFenceGate(ModWoodType.STONE, Blocks.DIORITE, 1.5f, 6));
 
     public static final TrapdoorBlock MOSSY_STONE_BRICK_TRAPDOOR = registerWithItem(
             "mossy_stone_brick_trapdoor",
-            newModTrapdoor(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS, 2.5f, 6));
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.DIORITE, 2.5f, 6));
 
     public static final PressurePlateBlock MOSSY_STONE_BRICK_PRESSURE_PLATE = registerWithItem(
             "mossy_stone_brick_pressure_plate",
-            newModPressurePlate(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS));
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.DIORITE));
 
     public static final ButtonBlock MOSSY_STONE_BRICK_BUTTON = registerWithItem(
             "mossy_stone_brick_button",
-            newModButton(ModBlockSetType.STONE, 20, Blocks.MOSSY_STONE_BRICKS));
+            newModButton(ModBlockSetType.STONE, 20, Blocks.DIORITE));
 
     public static final Identifier MOSSY_STONE_BRICK_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/mossy_stone_bricks");
 
     public static final TerraformSignBlock MOSSY_STONE_BRICK_SIGN = register(
             "mossy_stone_brick_sign",
-            newModSign(MOSSY_STONE_BRICK_SIGN_TEXTURE, Blocks.MOSSY_STONE_BRICKS, 1.5f, 2, BlockSoundGroup.STONE));
+            newModSign(MOSSY_STONE_BRICK_SIGN_TEXTURE, Blocks.DIORITE, 1.5f, 2, BlockSoundGroup.STONE));
 
     public static final TerraformWallSignBlock MOSSY_STONE_BRICK_WALL_SIGN = register(
             "mossy_stone_brick_wall_sign",
             newModWallSign(MOSSY_STONE_BRICK_SIGN_TEXTURE, ModBlocks.MOSSY_STONE_BRICK_SIGN));
+
+    //POLISHED GRANITE VARIANTS
+    public static final DoorBlock POLISHED_GRANITE_DOOR = registerWithItem(
+            "polished_granite_door",
+            newModDoor(ModBlockSetType.STONE, Blocks.POLISHED_GRANITE, false, 2.5f, 6));
+
+    public static final WallBlock POLISHED_GRANITE_WALL = registerWithItem(
+            "polished_granite_wall",
+            newModWall(Blocks.POLISHED_GRANITE));
+
+    public static final FenceBlock POLISHED_GRANITE_FENCE = registerWithItem(
+            "polished_granite_fence",
+            newModFence(Blocks.POLISHED_GRANITE, 1.5f, 6, BlockSoundGroup.STONE));
+
+    public static final FenceGateBlock POLISHED_GRANITE_FENCE_GATE = registerWithItem(
+            "polished_granite_fence_gate",
+            newModFenceGate(ModWoodType.STONE, Blocks.POLISHED_GRANITE, 1.5f, 6));
+
+    public static final TrapdoorBlock POLISHED_GRANITE_TRAPDOOR = registerWithItem(
+            "polished_granite_trapdoor",
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.POLISHED_GRANITE, 2.5f, 6));
+
+    public static final PressurePlateBlock POLISHED_GRANITE_PRESSURE_PLATE = registerWithItem(
+            "polished_granite_pressure_plate",
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.POLISHED_GRANITE));
+
+    public static final ButtonBlock POLISHED_GRANITE_BUTTON = registerWithItem(
+            "polished_granite_button",
+            newModButton(ModBlockSetType.STONE, 20, Blocks.POLISHED_GRANITE));
+
+    public static final Identifier POLISHED_GRANITE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/polished_granite");
+
+    public static final TerraformSignBlock POLISHED_GRANITE_SIGN = register(
+            "polished_granite_sign",
+            newModSign(POLISHED_GRANITE_SIGN_TEXTURE, Blocks.POLISHED_GRANITE, 1.5f, 2, BlockSoundGroup.STONE));
+
+    public static final TerraformWallSignBlock POLISHED_GRANITE_WALL_SIGN = register(
+            "polished_granite_wall_sign",
+            newModWallSign(POLISHED_GRANITE_SIGN_TEXTURE, ModBlocks.POLISHED_GRANITE_SIGN));
+
+    //DIORITE VARIANTS
+    public static final DoorBlock DIORITE_DOOR = registerWithItem(
+            "diorite_door",
+            newModDoor(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS, false, 2.5f, 6));
+
+    public static final FenceBlock DIORITE_FENCE = registerWithItem(
+            "diorite_fence",
+            newModFence(Blocks.MOSSY_STONE_BRICKS, 1.5f, 6, BlockSoundGroup.STONE));
+
+    public static final FenceGateBlock DIORITE_FENCE_GATE = registerWithItem(
+            "diorite_fence_gate",
+            newModFenceGate(ModWoodType.STONE, Blocks.MOSSY_STONE_BRICKS, 1.5f, 6));
+
+    public static final TrapdoorBlock DIORITE_TRAPDOOR = registerWithItem(
+            "diorite_trapdoor",
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS, 2.5f, 6));
+
+    public static final PressurePlateBlock DIORITE_PRESSURE_PLATE = registerWithItem(
+            "diorite_pressure_plate",
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS));
+
+    public static final ButtonBlock DIORITE_BUTTON = registerWithItem(
+            "diorite_button",
+            newModButton(ModBlockSetType.STONE, 20, Blocks.MOSSY_STONE_BRICKS));
+
+    public static final Identifier DIORITE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/diorite");
+
+    public static final TerraformSignBlock DIORITE_SIGN = register(
+            "diorite_sign",
+            newModSign(DIORITE_SIGN_TEXTURE, Blocks.MOSSY_STONE_BRICKS, 1.5f, 2, BlockSoundGroup.STONE));
+
+    public static final TerraformWallSignBlock DIORITE_WALL_SIGN = register(
+            "diorite_wall_sign",
+            newModWallSign(DIORITE_SIGN_TEXTURE, ModBlocks.DIORITE_SIGN));
 
     //SWAGGIEST VARIANTS EVER
     public static final DoorBlock NETHERITE_DOOR = registerWithItem(

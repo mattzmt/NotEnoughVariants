@@ -57,14 +57,12 @@ public class ModItems {
                             .maxCount(16),
                     ModBlocks.SMOOTH_STONE_SIGN, ModBlocks.SMOOTH_STONE_WALL_SIGN));
 
-
     public static final SignItem STONE_BRICK_SIGN = register(
             "stone_brick_sign",
             new SignItem(
                     new Item.Settings()
                             .maxCount(16),
                     ModBlocks.STONE_BRICK_SIGN, ModBlocks.STONE_BRICK_WALL_SIGN));
-
 
     public static final SignItem CRACKED_STONE_BRICK_SIGN = register(
             "cracked_stone_brick_sign",
@@ -73,14 +71,12 @@ public class ModItems {
                             .maxCount(16),
                     ModBlocks.CRACKED_STONE_BRICK_SIGN, ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN));
 
-
     public static final SignItem CHISELED_STONE_BRICK_SIGN = register(
             "chiseled_stone_brick_sign",
             new SignItem(
                     new Item.Settings()
                             .maxCount(16),
                     ModBlocks.CHISELED_STONE_BRICK_SIGN, ModBlocks.CHISELED_STONE_BRICK_WALL_SIGN));
-
 
     public static final SignItem MOSSY_STONE_BRICK_SIGN = register(
             "mossy_stone_brick_sign",
@@ -89,6 +85,19 @@ public class ModItems {
                             .maxCount(16),
                     ModBlocks.MOSSY_STONE_BRICK_SIGN, ModBlocks.MOSSY_STONE_BRICK_WALL_SIGN));
 
+    public static final SignItem POLISHED_GRANITE_SIGN = register(
+            "polished_granite_sign",
+            new SignItem(
+                    new Item.Settings()
+                            .maxCount(16),
+                    ModBlocks.POLISHED_GRANITE_SIGN, ModBlocks.POLISHED_GRANITE_WALL_SIGN));
+
+    public static final SignItem DIORITE_SIGN = register(
+            "diorite_sign",
+            new SignItem(
+                    new Item.Settings()
+                            .maxCount(16),
+                    ModBlocks.DIORITE_SIGN, ModBlocks.DIORITE_WALL_SIGN));
 
     public static final SignItem NETHERITE_SIGN = register(
             "netherite_sign",

@@ -160,6 +160,29 @@ public class ModModelProvider extends FabricModelProvider {
                 .build();
         blockStateModelGenerator.registerCubeAllModelTexturePool(mossyStoneBrickFamily.getBaseBlock()).family(mossyStoneBrickFamily);
 
+        var polishedGraniteFamily = new BlockFamily.Builder(Blocks.POLISHED_GRANITE)
+                .door(ModBlocks.POLISHED_GRANITE_DOOR)
+                .sign(ModBlocks.POLISHED_GRANITE_SIGN, ModBlocks.POLISHED_GRANITE_WALL_SIGN)
+                .wall(ModBlocks.POLISHED_GRANITE_WALL)
+                .fence(ModBlocks.POLISHED_GRANITE_FENCE)
+                .fenceGate(ModBlocks.POLISHED_GRANITE_FENCE_GATE)
+                .trapdoor(ModBlocks.POLISHED_GRANITE_TRAPDOOR)
+                .pressurePlate(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_GRANITE_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(polishedGraniteFamily.getBaseBlock()).family(polishedGraniteFamily);
+
+        var dioriteFamily = new BlockFamily.Builder(Blocks.DIORITE)
+                .door(ModBlocks.DIORITE_DOOR)
+                .sign(ModBlocks.DIORITE_SIGN, ModBlocks.DIORITE_WALL_SIGN)
+                .fence(ModBlocks.DIORITE_FENCE)
+                .fenceGate(ModBlocks.DIORITE_FENCE_GATE)
+                .trapdoor(ModBlocks.DIORITE_TRAPDOOR)
+                .pressurePlate(ModBlocks.DIORITE_PRESSURE_PLATE)
+                .button(ModBlocks.DIORITE_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(dioriteFamily.getBaseBlock()).family(dioriteFamily);
+
         var netheriteFamily = new BlockFamily.Builder(Blocks.NETHERITE_BLOCK)
                 .door(ModBlocks.NETHERITE_DOOR)
                 .wall(ModBlocks.NETHERITE_WALL)

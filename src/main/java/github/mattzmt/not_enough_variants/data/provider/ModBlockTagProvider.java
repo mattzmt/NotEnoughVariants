@@ -116,6 +116,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_STONE_BRICK_SIGN)
                 .add(ModBlocks.MOSSY_STONE_BRICK_WALL_SIGN)
 
+                .add(ModBlocks.POLISHED_GRANITE_DOOR)
+                .add(ModBlocks.POLISHED_GRANITE_WALL)
+                .add(ModBlocks.POLISHED_GRANITE_FENCE)
+                .add(ModBlocks.POLISHED_GRANITE_FENCE_GATE)
+                .add(ModBlocks.POLISHED_GRANITE_TRAPDOOR)
+                .add(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE)
+                .add(ModBlocks.POLISHED_GRANITE_BUTTON)
+                .add(ModBlocks.POLISHED_GRANITE_SIGN)
+                .add(ModBlocks.POLISHED_GRANITE_WALL_SIGN)
+
+                .add(ModBlocks.DIORITE_DOOR)
+                .add(ModBlocks.DIORITE_FENCE)
+                .add(ModBlocks.DIORITE_FENCE_GATE)
+                .add(ModBlocks.DIORITE_TRAPDOOR)
+                .add(ModBlocks.DIORITE_PRESSURE_PLATE)
+                .add(ModBlocks.DIORITE_BUTTON)
+                .add(ModBlocks.DIORITE_SIGN)
+                .add(ModBlocks.DIORITE_WALL_SIGN)
+
                 .add(ModBlocks.NETHERITE_DOOR)
                 .add(ModBlocks.NETHERITE_WALL)
                 .add(ModBlocks.NETHERITE_FENCE)
@@ -146,7 +165,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STONE_BRICK_DOOR)
                 .add(ModBlocks.CRACKED_STONE_BRICK_DOOR)
                 .add(ModBlocks.CHISELED_STONE_BRICK_DOOR)
-                .add(ModBlocks.CHISELED_STONE_BRICK_DOOR)
+                .add(ModBlocks.MOSSY_STONE_BRICK_DOOR)
+                .add(ModBlocks.POLISHED_GRANITE_DOOR)
+                .add(ModBlocks.DIORITE_DOOR)
                 .add(ModBlocks.NETHERITE_DOOR);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -166,6 +187,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMOOTH_STONE_WALL)
                 .add(ModBlocks.CRACKED_STONE_BRICK_WALL)
                 .add(ModBlocks.CHISELED_STONE_BRICK_WALL)
+                .add(ModBlocks.POLISHED_GRANITE_WALL)
                 .add(ModBlocks.NETHERITE_WALL);
 
         getOrCreateTagBuilder(BlockTags.STANDING_SIGNS)
@@ -178,7 +200,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STONE_BRICK_SIGN)
                 .add(ModBlocks.CRACKED_STONE_BRICK_SIGN)
                 .add(ModBlocks.CHISELED_STONE_BRICK_SIGN)
-                .add(ModBlocks.CHISELED_STONE_BRICK_SIGN)
+                .add(ModBlocks.MOSSY_STONE_BRICK_SIGN)
+                .add(ModBlocks.POLISHED_GRANITE_SIGN)
+                .add(ModBlocks.DIORITE_SIGN)
                 .add(ModBlocks.NETHERITE_SIGN);
 
         getOrCreateTagBuilder(BlockTags.WALL_SIGNS)
@@ -190,8 +214,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMOOTH_STONE_WALL_SIGN)
                 .add(ModBlocks.STONE_BRICK_WALL_SIGN)
                 .add(ModBlocks.CRACKED_STONE_BRICK_WALL_SIGN)
-                .add(ModBlocks.MOSSY_STONE_BRICK_WALL_SIGN)
                 .add(ModBlocks.CHISELED_STONE_BRICK_WALL_SIGN)
+                .add(ModBlocks.MOSSY_STONE_BRICK_WALL_SIGN)
+                .add(ModBlocks.POLISHED_GRANITE_WALL_SIGN)
+                .add(ModBlocks.DIORITE_WALL_SIGN)
                 .add(ModBlocks.NETHERITE_WALL_SIGN);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
@@ -205,6 +231,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_STONE_BRICK_FENCE)
                 .add(ModBlocks.CHISELED_STONE_BRICK_FENCE)
                 .add(ModBlocks.MOSSY_STONE_BRICK_FENCE)
+                .add(ModBlocks.POLISHED_GRANITE_FENCE)
+                .add(ModBlocks.DIORITE_FENCE)
                 .add(ModBlocks.NETHERITE_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -218,6 +246,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_STONE_BRICK_FENCE_GATE)
                 .add(ModBlocks.CHISELED_STONE_BRICK_FENCE_GATE)
                 .add(ModBlocks.MOSSY_STONE_BRICK_FENCE_GATE)
+                .add(ModBlocks.POLISHED_GRANITE_FENCE_GATE)
+                .add(ModBlocks.DIORITE_FENCE_GATE)
                 .add(ModBlocks.NETHERITE_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
@@ -244,6 +274,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_STONE_BRICK_TRAPDOOR)
                 .add(ModBlocks.CHISELED_STONE_BRICK_TRAPDOOR)
                 .add(ModBlocks.MOSSY_STONE_BRICK_TRAPDOOR)
+                .add(ModBlocks.POLISHED_GRANITE_TRAPDOOR)
+                .add(ModBlocks.DIORITE_TRAPDOOR)
                 .add(ModBlocks.NETHERITE_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.PRESSURE_PLATES)
@@ -256,6 +288,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE)
                 .add(ModBlocks.CHISELED_STONE_BRICK_PRESSURE_PLATE)
                 .add(ModBlocks.MOSSY_STONE_BRICK_PRESSURE_PLATE)
+                .add(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE)
+                .add(ModBlocks.DIORITE_PRESSURE_PLATE)
                 .add(ModBlocks.NETHERITE_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.BUTTONS)
@@ -265,9 +299,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_COBBLESTONE_BUTTON)
                 .add(ModBlocks.SMOOTH_STONE_BUTTON)
                 .add(ModBlocks.STONE_BRICK_BUTTON)
-                .add(ModBlocks.CRACKED_STONE_BRICK_PRESSURE_PLATE)
-                .add(ModBlocks.CHISELED_STONE_BRICK_PRESSURE_PLATE)
-                .add(ModBlocks.MOSSY_STONE_BRICK_PRESSURE_PLATE)
+                .add(ModBlocks.CRACKED_STONE_BRICK_BUTTON)
+                .add(ModBlocks.CHISELED_STONE_BRICK_BUTTON)
+                .add(ModBlocks.MOSSY_STONE_BRICK_BUTTON)
+                .add(ModBlocks.POLISHED_GRANITE_BUTTON)
+                .add(ModBlocks.DIORITE_BUTTON)
                 .add(ModBlocks.NETHERITE_BUTTON);
     }
 }

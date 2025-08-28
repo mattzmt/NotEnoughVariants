@@ -43,6 +43,8 @@ public class ModLangEnUsProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.CRACKED_STONE_BRICK_SIGN, "Cracked Stone Brick Sign");
         translationBuilder.add(ModItems.CHISELED_STONE_BRICK_SIGN, "Chiseled Stone Brick Sign");
         translationBuilder.add(ModItems.MOSSY_STONE_BRICK_SIGN, "Mossy Stone Brick Sign");
+        translationBuilder.add(ModItems.POLISHED_GRANITE_SIGN, "Polished Granite Sign");
+        translationBuilder.add(ModItems.DIORITE_SIGN, "Diorite Sign");
         translationBuilder.add(ModItems.NETHERITE_SIGN, "Swaggiest Sign Ever");
 
         //BLOCKS
@@ -137,6 +139,21 @@ public class ModLangEnUsProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.MOSSY_STONE_BRICK_TRAPDOOR, "Mossy Stone Brick Trapdoor");
         translationBuilder.add(ModBlocks.MOSSY_STONE_BRICK_PRESSURE_PLATE, "Mossy Stone Brick Pressure Plate");
         translationBuilder.add(ModBlocks.MOSSY_STONE_BRICK_BUTTON, "Mossy Stone Brick Button");
+
+        translationBuilder.add(ModBlocks.POLISHED_GRANITE_DOOR, "Polished Granite Door");
+        translationBuilder.add(ModBlocks.POLISHED_GRANITE_WALL, "Polished Granite Wall");
+        translationBuilder.add(ModBlocks.POLISHED_GRANITE_FENCE, "Polished Granite Fence");
+        translationBuilder.add(ModBlocks.POLISHED_GRANITE_FENCE_GATE, "Polished Granite Fence Gate");
+        translationBuilder.add(ModBlocks.POLISHED_GRANITE_TRAPDOOR, "Polished Granite Trapdoor");
+        translationBuilder.add(ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE, "Polished Granite Pressure Plate");
+        translationBuilder.add(ModBlocks.POLISHED_GRANITE_BUTTON, "Polished Granite Button");
+
+        translationBuilder.add(ModBlocks.DIORITE_DOOR, "Diorite Door");
+        translationBuilder.add(ModBlocks.DIORITE_FENCE, "Diorite Fence");
+        translationBuilder.add(ModBlocks.DIORITE_FENCE_GATE, "Diorite Fence Gate");
+        translationBuilder.add(ModBlocks.DIORITE_TRAPDOOR, "Diorite Trapdoor");
+        translationBuilder.add(ModBlocks.DIORITE_PRESSURE_PLATE, "Diorite Pressure Plate");
+        translationBuilder.add(ModBlocks.DIORITE_BUTTON, "Diorite Button");
 
         translationBuilder.add(ModBlocks.NETHERITE_DOOR, "Swaggiest Door Ever");
         translationBuilder.add(ModBlocks.NETHERITE_WALL, "Swaggiest Wall Ever");

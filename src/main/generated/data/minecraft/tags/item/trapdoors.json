@@ -10,6 +10,8 @@
     "not_enough_variants:cracked_stone_brick_trapdoor",
     "not_enough_variants:chiseled_stone_brick_trapdoor",
     "not_enough_variants:mossy_stone_brick_trapdoor",
+    "not_enough_variants:polished_granite_trapdoor",
+    "not_enough_variants:diorite_trapdoor",
     "not_enough_variants:netherite_trapdoor"
   ]
 }
