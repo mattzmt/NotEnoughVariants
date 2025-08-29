@@ -183,6 +183,18 @@ public class ModModelProvider extends FabricModelProvider {
                 .build();
         blockStateModelGenerator.registerCubeAllModelTexturePool(dioriteFamily.getBaseBlock()).family(dioriteFamily);
 
+        var polishedDioriteFamily = new BlockFamily.Builder(Blocks.POLISHED_DIORITE)
+                .door(ModBlocks.POLISHED_DIORITE_DOOR)
+                .sign(ModBlocks.POLISHED_DIORITE_SIGN, ModBlocks.POLISHED_DIORITE_WALL_SIGN)
+                .wall(ModBlocks.POLISHED_DIORITE_WALL)
+                .fence(ModBlocks.POLISHED_DIORITE_FENCE)
+                .fenceGate(ModBlocks.POLISHED_DIORITE_FENCE_GATE)
+                .trapdoor(ModBlocks.POLISHED_DIORITE_TRAPDOOR)
+                .pressurePlate(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_DIORITE_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(polishedDioriteFamily.getBaseBlock()).family(polishedDioriteFamily);
+
         var netheriteFamily = new BlockFamily.Builder(Blocks.NETHERITE_BLOCK)
                 .door(ModBlocks.NETHERITE_DOOR)
                 .wall(ModBlocks.NETHERITE_WALL)

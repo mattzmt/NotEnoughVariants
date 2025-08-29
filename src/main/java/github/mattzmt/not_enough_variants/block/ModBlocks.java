@@ -524,6 +524,45 @@ public class ModBlocks {
             "diorite_wall_sign",
             newModWallSign(DIORITE_SIGN_TEXTURE, ModBlocks.DIORITE_SIGN));
 
+    //POLISHED DIORITE VARIANTS
+    public static final DoorBlock POLISHED_DIORITE_DOOR = registerWithItem(
+            "polished_diorite_door",
+            newModDoor(ModBlockSetType.STONE, Blocks.POLISHED_DIORITE, false, 2.5f, 6));
+
+    public static final WallBlock POLISHED_DIORITE_WALL = registerWithItem(
+            "polished_diorite_wall",
+            newModWall(Blocks.POLISHED_DIORITE));
+
+    public static final FenceBlock POLISHED_DIORITE_FENCE = registerWithItem(
+            "polished_diorite_fence",
+            newModFence(Blocks.POLISHED_DIORITE, 1.5f, 6, BlockSoundGroup.STONE));
+
+    public static final FenceGateBlock POLISHED_DIORITE_FENCE_GATE = registerWithItem(
+            "polished_diorite_fence_gate",
+            newModFenceGate(ModWoodType.STONE, Blocks.POLISHED_DIORITE, 1.5f, 6));
+
+    public static final TrapdoorBlock POLISHED_DIORITE_TRAPDOOR = registerWithItem(
+            "polished_diorite_trapdoor",
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.POLISHED_DIORITE, 2.5f, 6));
+
+    public static final PressurePlateBlock POLISHED_DIORITE_PRESSURE_PLATE = registerWithItem(
+            "polished_diorite_pressure_plate",
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.POLISHED_DIORITE));
+
+    public static final ButtonBlock POLISHED_DIORITE_BUTTON = registerWithItem(
+            "polished_diorite_button",
+            newModButton(ModBlockSetType.STONE, 20, Blocks.POLISHED_DIORITE));
+
+    public static final Identifier POLISHED_DIORITE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/polished_diorite");
+
+    public static final TerraformSignBlock POLISHED_DIORITE_SIGN = register(
+            "polished_diorite_sign",
+            newModSign(POLISHED_DIORITE_SIGN_TEXTURE, Blocks.POLISHED_DIORITE, 1.5f, 2, BlockSoundGroup.STONE));
+
+    public static final TerraformWallSignBlock POLISHED_DIORITE_WALL_SIGN = register(
+            "polished_diorite_wall_sign",
+            newModWallSign(POLISHED_DIORITE_SIGN_TEXTURE, ModBlocks.POLISHED_DIORITE_SIGN));
+
     //SWAGGIEST VARIANTS EVER
     public static final DoorBlock NETHERITE_DOOR = registerWithItem(
             "netherite_door",

@@ -99,6 +99,13 @@ public class ModItems {
                             .maxCount(16),
                     ModBlocks.DIORITE_SIGN, ModBlocks.DIORITE_WALL_SIGN));
 
+    public static final SignItem POLISHED_DIORITE_SIGN = register(
+            "polished_diorite_sign",
+            new SignItem(
+                    new Item.Settings()
+                            .maxCount(16),
+                    ModBlocks.POLISHED_DIORITE_SIGN, ModBlocks.POLISHED_DIORITE_WALL_SIGN));
+
     public static final SignItem NETHERITE_SIGN = register(
             "netherite_sign",
             new SignItem(

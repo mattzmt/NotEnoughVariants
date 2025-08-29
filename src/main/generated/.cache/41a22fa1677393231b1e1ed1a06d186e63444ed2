@@ -1,10 +1,10 @@
-// 1.21.1	2025-08-28T19:13:22.456027	Not Enough Variants/Tags for minecraft:item
-e47965870f688f99aee9773f77bd6bf9b46e044c data\minecraft\tags\item\buttons.json
-8e301137aed6927e663081a64a5b1a5d9ed4ce22 data\minecraft\tags\item\signs.json
-97d4570e1fbafb29cd25aeeb856b2611d45a8bee data\minecraft\tags\item\trapdoors.json
+// 1.21.1	2025-08-29T20:18:54.2868925	Not Enough Variants/Tags for minecraft:item
+e2508b1905105d774c7e1f5b733013e9ba7f6ff8 data\minecraft\tags\item\buttons.json
+876e353f35100fc4a0762592948438fcdc345944 data\minecraft\tags\item\signs.json
+c35ed00d479729591c3fd9bc7878eb623082e0fe data\minecraft\tags\item\trapdoors.json
 3aa8be184ec825d06097095526f77b8e7274a33b data\minecraft\tags\item\stairs.json
-30ea50acf2b42bcc5deb9ca194fca71b36cedbdc data\minecraft\tags\item\fences.json
-63b76363cee1ea3b48ddb3be4bbfa8c1e70d0bfc data\minecraft\tags\item\doors.json
-ac8c7a613f46d52d633a7109ee97735614f08bda data\minecraft\tags\item\walls.json
-cac909a2e70f335dbd1ab957c02ebffcff138981 data\minecraft\tags\item\fence_gates.json
+75d4d1f1100c3ac1fc969666557a9afbc682dc12 data\minecraft\tags\item\fences.json
+5380426734a0fae8773a0974a75b8fcf191ac290 data\minecraft\tags\item\doors.json
+557a7f98cfb7325d7b3fcbf822a8d87e590d5f31 data\minecraft\tags\item\walls.json
+ef71bb936fc4b5cf3904f1c6fd17a10926d5b7ca data\minecraft\tags\item\fence_gates.json
 17989160b2b142a9967e0b682638f391bc0bef3a data\minecraft\tags\item\slabs.json

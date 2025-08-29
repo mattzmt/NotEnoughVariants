@@ -137,6 +137,16 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DIORITE_SIGN, ModItems.DIORITE_SIGN);
         addDrop(ModBlocks.DIORITE_WALL_SIGN, ModItems.DIORITE_SIGN);
 
+        addDrop(ModBlocks.POLISHED_DIORITE_DOOR, doorDrops(ModBlocks.POLISHED_DIORITE_DOOR));
+        addDrop(ModBlocks.POLISHED_DIORITE_WALL);
+        addDrop(ModBlocks.POLISHED_DIORITE_FENCE);
+        addDrop(ModBlocks.POLISHED_DIORITE_FENCE_GATE);
+        addDrop(ModBlocks.POLISHED_DIORITE_TRAPDOOR);
+        addDrop(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
+        addDrop(ModBlocks.POLISHED_DIORITE_BUTTON);
+        addDrop(ModBlocks.POLISHED_DIORITE_SIGN, ModItems.POLISHED_DIORITE_SIGN);
+        addDrop(ModBlocks.POLISHED_DIORITE_WALL_SIGN, ModItems.POLISHED_DIORITE_SIGN);
+
         addDrop(ModBlocks.NETHERITE_DOOR, doorDrops(ModBlocks.NETHERITE_DOOR));
         addDrop(ModBlocks.NETHERITE_WALL);
         addDrop(ModBlocks.NETHERITE_FENCE);

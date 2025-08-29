@@ -119,8 +119,8 @@ public class ModItemGroups {
                 entries.add(ModBlocks.MOSSY_STONE_BRICK_BUTTON);
 
                 entries.add(ModBlocks.POLISHED_GRANITE_DOOR);
-                entries.add(ModItems.POLISHED_GRANITE_SIGN);
                 entries.add(ModBlocks.POLISHED_GRANITE_WALL);
+                entries.add(ModItems.POLISHED_GRANITE_SIGN);
                 entries.add(ModBlocks.POLISHED_GRANITE_FENCE);
                 entries.add(ModBlocks.POLISHED_GRANITE_FENCE_GATE);
                 entries.add(ModBlocks.POLISHED_GRANITE_TRAPDOOR);
@@ -134,6 +134,15 @@ public class ModItemGroups {
                 entries.add(ModBlocks.DIORITE_TRAPDOOR);
                 entries.add(ModBlocks.DIORITE_PRESSURE_PLATE);
                 entries.add(ModBlocks.DIORITE_BUTTON);
+
+                entries.add(ModBlocks.POLISHED_DIORITE_DOOR);
+                entries.add(ModBlocks.POLISHED_DIORITE_WALL);
+                entries.add(ModItems.POLISHED_DIORITE_SIGN);
+                entries.add(ModBlocks.POLISHED_DIORITE_FENCE);
+                entries.add(ModBlocks.POLISHED_DIORITE_FENCE_GATE);
+                entries.add(ModBlocks.POLISHED_DIORITE_TRAPDOOR);
+                entries.add(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE);
+                entries.add(ModBlocks.POLISHED_DIORITE_BUTTON);
 
                 entries.add(ModBlocks.NETHERITE_DOOR);
                 entries.add(ModBlocks.NETHERITE_WALL);

@@ -17,6 +17,7 @@
     "not_enough_variants:cracked_stone_brick_wall",
     "not_enough_variants:chiseled_stone_brick_wall",
     "not_enough_variants:polished_granite_wall",
+    "not_enough_variants:polished_diorite_wall",
     "not_enough_variants:netherite_wall"
   ]
 }
