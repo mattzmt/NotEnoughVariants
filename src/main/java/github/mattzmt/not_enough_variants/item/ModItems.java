@@ -106,6 +106,20 @@ public class ModItems {
                             .maxCount(16),
                     ModBlocks.POLISHED_DIORITE_SIGN, ModBlocks.POLISHED_DIORITE_WALL_SIGN));
 
+    public static final SignItem ANDESITE_SIGN = register(
+            "andesite_sign",
+            new SignItem(
+                    new Item.Settings()
+                            .maxCount(16),
+                    ModBlocks.ANDESITE_SIGN, ModBlocks.ANDESITE_WALL_SIGN));
+
+    public static final SignItem POLISHED_ANDESITE_SIGN = register(
+            "polished_andesite_sign",
+            new SignItem(
+                    new Item.Settings()
+                            .maxCount(16),
+                    ModBlocks.POLISHED_ANDESITE_SIGN, ModBlocks.POLISHED_ANDESITE_WALL_SIGN));
+
     public static final SignItem NETHERITE_SIGN = register(
             "netherite_sign",
             new SignItem(

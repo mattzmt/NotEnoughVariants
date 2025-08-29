@@ -13,6 +13,8 @@
     "not_enough_variants:polished_granite_fence_gate",
     "not_enough_variants:diorite_fence_gate",
     "not_enough_variants:polished_diorite_fence_gate",
+    "not_enough_variants:andesite_fence_gate",
+    "not_enough_variants:polished_andesite_fence_gate",
     "not_enough_variants:netherite_fence_gate"
   ]
 }

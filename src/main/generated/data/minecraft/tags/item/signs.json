@@ -13,6 +13,8 @@
     "not_enough_variants:polished_granite_sign",
     "not_enough_variants:diorite_sign",
     "not_enough_variants:polished_diorite_sign",
+    "not_enough_variants:andesite_sign",
+    "not_enough_variants:polished_andesite_sign",
     "not_enough_variants:netherite_sign"
   ]
 }

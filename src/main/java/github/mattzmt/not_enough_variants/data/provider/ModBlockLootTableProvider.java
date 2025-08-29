@@ -147,6 +147,25 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLISHED_DIORITE_SIGN, ModItems.POLISHED_DIORITE_SIGN);
         addDrop(ModBlocks.POLISHED_DIORITE_WALL_SIGN, ModItems.POLISHED_DIORITE_SIGN);
 
+        addDrop(ModBlocks.ANDESITE_DOOR, doorDrops(ModBlocks.ANDESITE_DOOR));
+        addDrop(ModBlocks.ANDESITE_FENCE);
+        addDrop(ModBlocks.ANDESITE_FENCE_GATE);
+        addDrop(ModBlocks.ANDESITE_TRAPDOOR);
+        addDrop(ModBlocks.ANDESITE_PRESSURE_PLATE);
+        addDrop(ModBlocks.ANDESITE_BUTTON);
+        addDrop(ModBlocks.ANDESITE_SIGN, ModItems.ANDESITE_SIGN);
+        addDrop(ModBlocks.ANDESITE_WALL_SIGN, ModItems.ANDESITE_SIGN);
+
+        addDrop(ModBlocks.POLISHED_ANDESITE_DOOR, doorDrops(ModBlocks.POLISHED_ANDESITE_DOOR));
+        addDrop(ModBlocks.POLISHED_ANDESITE_WALL);
+        addDrop(ModBlocks.POLISHED_ANDESITE_FENCE);
+        addDrop(ModBlocks.POLISHED_ANDESITE_FENCE_GATE);
+        addDrop(ModBlocks.POLISHED_ANDESITE_TRAPDOOR);
+        addDrop(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE);
+        addDrop(ModBlocks.POLISHED_ANDESITE_BUTTON);
+        addDrop(ModBlocks.POLISHED_ANDESITE_SIGN, ModItems.POLISHED_ANDESITE_SIGN);
+        addDrop(ModBlocks.POLISHED_ANDESITE_WALL_SIGN, ModItems.POLISHED_ANDESITE_SIGN);
+
         addDrop(ModBlocks.NETHERITE_DOOR, doorDrops(ModBlocks.NETHERITE_DOOR));
         addDrop(ModBlocks.NETHERITE_WALL);
         addDrop(ModBlocks.NETHERITE_FENCE);

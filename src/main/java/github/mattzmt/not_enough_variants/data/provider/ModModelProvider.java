@@ -195,6 +195,29 @@ public class ModModelProvider extends FabricModelProvider {
                 .build();
         blockStateModelGenerator.registerCubeAllModelTexturePool(polishedDioriteFamily.getBaseBlock()).family(polishedDioriteFamily);
 
+        var andesiteFamily = new BlockFamily.Builder(Blocks.ANDESITE)
+                .door(ModBlocks.ANDESITE_DOOR)
+                .sign(ModBlocks.ANDESITE_SIGN, ModBlocks.ANDESITE_WALL_SIGN)
+                .fence(ModBlocks.ANDESITE_FENCE)
+                .fenceGate(ModBlocks.ANDESITE_FENCE_GATE)
+                .trapdoor(ModBlocks.ANDESITE_TRAPDOOR)
+                .pressurePlate(ModBlocks.ANDESITE_PRESSURE_PLATE)
+                .button(ModBlocks.ANDESITE_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(andesiteFamily.getBaseBlock()).family(andesiteFamily);
+
+        var polishedAndesiteFamily = new BlockFamily.Builder(Blocks.POLISHED_ANDESITE)
+                .door(ModBlocks.POLISHED_ANDESITE_DOOR)
+                .sign(ModBlocks.POLISHED_ANDESITE_SIGN, ModBlocks.POLISHED_ANDESITE_WALL_SIGN)
+                .wall(ModBlocks.POLISHED_ANDESITE_WALL)
+                .fence(ModBlocks.POLISHED_ANDESITE_FENCE)
+                .fenceGate(ModBlocks.POLISHED_ANDESITE_FENCE_GATE)
+                .trapdoor(ModBlocks.POLISHED_ANDESITE_TRAPDOOR)
+                .pressurePlate(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE)
+                .button(ModBlocks.POLISHED_ANDESITE_BUTTON)
+                .build();
+        blockStateModelGenerator.registerCubeAllModelTexturePool(polishedAndesiteFamily.getBaseBlock()).family(polishedAndesiteFamily);
+
         var netheriteFamily = new BlockFamily.Builder(Blocks.NETHERITE_BLOCK)
                 .door(ModBlocks.NETHERITE_DOOR)
                 .wall(ModBlocks.NETHERITE_WALL)

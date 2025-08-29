@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "not_enough_variants:block/chiseled_stone_brick_sign"
+      "model": "not_enough_variants:block/cracked_stone_brick_sign"
     }
   }
 }

@@ -46,6 +46,8 @@ public class ModLangEnUsProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.POLISHED_GRANITE_SIGN, "Polished Granite Sign");
         translationBuilder.add(ModItems.DIORITE_SIGN, "Diorite Sign");
         translationBuilder.add(ModItems.POLISHED_DIORITE_SIGN, "Polished Diorite Sign");
+        translationBuilder.add(ModItems.ANDESITE_SIGN, "Andesite Sign");
+        translationBuilder.add(ModItems.POLISHED_ANDESITE_SIGN, "Polished Andesite Sign");
         translationBuilder.add(ModItems.NETHERITE_SIGN, "Swaggiest Sign Ever");
 
         //BLOCKS
@@ -163,6 +165,21 @@ public class ModLangEnUsProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.POLISHED_DIORITE_TRAPDOOR, "Polished Diorite Trapdoor");
         translationBuilder.add(ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE, "Polished Diorite Pressure Plate");
         translationBuilder.add(ModBlocks.POLISHED_DIORITE_BUTTON, "Polished Diorite Button");
+
+        translationBuilder.add(ModBlocks.ANDESITE_DOOR, "Andesite Door");
+        translationBuilder.add(ModBlocks.ANDESITE_FENCE, "Andesite Fence");
+        translationBuilder.add(ModBlocks.ANDESITE_FENCE_GATE, "Andesite Fence Gate");
+        translationBuilder.add(ModBlocks.ANDESITE_TRAPDOOR, "Andesite Trapdoor");
+        translationBuilder.add(ModBlocks.ANDESITE_PRESSURE_PLATE, "Andesite Pressure Plate");
+        translationBuilder.add(ModBlocks.ANDESITE_BUTTON, "Andesite Button");
+
+        translationBuilder.add(ModBlocks.POLISHED_ANDESITE_DOOR, "Polished Andesite Door");
+        translationBuilder.add(ModBlocks.POLISHED_ANDESITE_WALL, "Polished Andesite Wall");
+        translationBuilder.add(ModBlocks.POLISHED_ANDESITE_FENCE, "Polished Andesite Fence");
+        translationBuilder.add(ModBlocks.POLISHED_ANDESITE_FENCE_GATE, "Polished Andesite Fence Gate");
+        translationBuilder.add(ModBlocks.POLISHED_ANDESITE_TRAPDOOR, "Polished Andesite Trapdoor");
+        translationBuilder.add(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE, "Polished Andesite Pressure Plate");
+        translationBuilder.add(ModBlocks.POLISHED_ANDESITE_BUTTON, "Polished Andesite Button");
 
         translationBuilder.add(ModBlocks.NETHERITE_DOOR, "Swaggiest Door Ever");
         translationBuilder.add(ModBlocks.NETHERITE_WALL, "Swaggiest Wall Ever");

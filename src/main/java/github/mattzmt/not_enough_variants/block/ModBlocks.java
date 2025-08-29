@@ -418,19 +418,19 @@ public class ModBlocks {
     //MOSSY STONE BRICK VARIANTS
     public static final DoorBlock MOSSY_STONE_BRICK_DOOR = registerWithItem(
             "mossy_stone_brick_door",
-            newModDoor(ModBlockSetType.STONE, Blocks.DIORITE, false, 2.5f, 6));
+            newModDoor(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS, false, 2.5f, 6));
 
     public static final FenceBlock MOSSY_STONE_BRICK_FENCE = registerWithItem(
             "mossy_stone_brick_fence",
-            newModFence(Blocks.DIORITE, 1.5f, 6, BlockSoundGroup.STONE));
+            newModFence(Blocks.MOSSY_STONE_BRICKS, 1.5f, 6, BlockSoundGroup.STONE));
 
     public static final FenceGateBlock MOSSY_STONE_BRICK_FENCE_GATE = registerWithItem(
             "mossy_stone_brick_fence_gate",
-            newModFenceGate(ModWoodType.STONE, Blocks.DIORITE, 1.5f, 6));
+            newModFenceGate(ModWoodType.STONE, Blocks.MOSSY_STONE_BRICKS, 1.5f, 6));
 
     public static final TrapdoorBlock MOSSY_STONE_BRICK_TRAPDOOR = registerWithItem(
             "mossy_stone_brick_trapdoor",
-            newModTrapdoor(ModBlockSetType.STONE, Blocks.DIORITE, 2.5f, 6));
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS, 2.5f, 6));
 
     public static final PressurePlateBlock MOSSY_STONE_BRICK_PRESSURE_PLATE = registerWithItem(
             "mossy_stone_brick_pressure_plate",
@@ -444,7 +444,7 @@ public class ModBlocks {
 
     public static final TerraformSignBlock MOSSY_STONE_BRICK_SIGN = register(
             "mossy_stone_brick_sign",
-            newModSign(MOSSY_STONE_BRICK_SIGN_TEXTURE, Blocks.DIORITE, 1.5f, 2, BlockSoundGroup.STONE));
+            newModSign(MOSSY_STONE_BRICK_SIGN_TEXTURE, Blocks.MOSSY_STONE_BRICKS, 1.5f, 2, BlockSoundGroup.STONE));
 
     public static final TerraformWallSignBlock MOSSY_STONE_BRICK_WALL_SIGN = register(
             "mossy_stone_brick_wall_sign",
@@ -492,33 +492,33 @@ public class ModBlocks {
     //DIORITE VARIANTS
     public static final DoorBlock DIORITE_DOOR = registerWithItem(
             "diorite_door",
-            newModDoor(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS, false, 2.5f, 6));
+            newModDoor(ModBlockSetType.STONE, Blocks.DIORITE, false, 2.5f, 6));
 
     public static final FenceBlock DIORITE_FENCE = registerWithItem(
             "diorite_fence",
-            newModFence(Blocks.MOSSY_STONE_BRICKS, 1.5f, 6, BlockSoundGroup.STONE));
+            newModFence(Blocks.DIORITE, 1.5f, 6, BlockSoundGroup.STONE));
 
     public static final FenceGateBlock DIORITE_FENCE_GATE = registerWithItem(
             "diorite_fence_gate",
-            newModFenceGate(ModWoodType.STONE, Blocks.MOSSY_STONE_BRICKS, 1.5f, 6));
+            newModFenceGate(ModWoodType.STONE, Blocks.DIORITE, 1.5f, 6));
 
     public static final TrapdoorBlock DIORITE_TRAPDOOR = registerWithItem(
             "diorite_trapdoor",
-            newModTrapdoor(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS, 2.5f, 6));
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.DIORITE, 2.5f, 6));
 
     public static final PressurePlateBlock DIORITE_PRESSURE_PLATE = registerWithItem(
             "diorite_pressure_plate",
-            newModPressurePlate(ModBlockSetType.STONE, Blocks.MOSSY_STONE_BRICKS));
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.DIORITE));
 
     public static final ButtonBlock DIORITE_BUTTON = registerWithItem(
             "diorite_button",
-            newModButton(ModBlockSetType.STONE, 20, Blocks.MOSSY_STONE_BRICKS));
+            newModButton(ModBlockSetType.STONE, 20, Blocks.DIORITE));
 
     public static final Identifier DIORITE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/diorite");
 
     public static final TerraformSignBlock DIORITE_SIGN = register(
             "diorite_sign",
-            newModSign(DIORITE_SIGN_TEXTURE, Blocks.MOSSY_STONE_BRICKS, 1.5f, 2, BlockSoundGroup.STONE));
+            newModSign(DIORITE_SIGN_TEXTURE, Blocks.DIORITE, 1.5f, 2, BlockSoundGroup.STONE));
 
     public static final TerraformWallSignBlock DIORITE_WALL_SIGN = register(
             "diorite_wall_sign",
@@ -562,6 +562,80 @@ public class ModBlocks {
     public static final TerraformWallSignBlock POLISHED_DIORITE_WALL_SIGN = register(
             "polished_diorite_wall_sign",
             newModWallSign(POLISHED_DIORITE_SIGN_TEXTURE, ModBlocks.POLISHED_DIORITE_SIGN));
+
+    //ANDESITE VARIANTS
+    public static final DoorBlock ANDESITE_DOOR = registerWithItem(
+            "andesite_door",
+            newModDoor(ModBlockSetType.STONE, Blocks.ANDESITE, false, 2.5f, 6));
+
+    public static final FenceBlock ANDESITE_FENCE = registerWithItem(
+            "andesite_fence",
+            newModFence(Blocks.ANDESITE, 1.5f, 6, BlockSoundGroup.STONE));
+
+    public static final FenceGateBlock ANDESITE_FENCE_GATE = registerWithItem(
+            "andesite_fence_gate",
+            newModFenceGate(ModWoodType.STONE, Blocks.ANDESITE, 1.5f, 6));
+
+    public static final TrapdoorBlock ANDESITE_TRAPDOOR = registerWithItem(
+            "andesite_trapdoor",
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.ANDESITE, 2.5f, 6));
+
+    public static final PressurePlateBlock ANDESITE_PRESSURE_PLATE = registerWithItem(
+            "andesite_pressure_plate",
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.ANDESITE));
+
+    public static final ButtonBlock ANDESITE_BUTTON = registerWithItem(
+            "andesite_button",
+            newModButton(ModBlockSetType.STONE, 20, Blocks.ANDESITE));
+
+    public static final Identifier ANDESITE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/andesite");
+
+    public static final TerraformSignBlock ANDESITE_SIGN = register(
+            "andesite_sign",
+            newModSign(ANDESITE_SIGN_TEXTURE, Blocks.ANDESITE, 1.5f, 2, BlockSoundGroup.STONE));
+
+    public static final TerraformWallSignBlock ANDESITE_WALL_SIGN = register(
+            "andesite_wall_sign",
+            newModWallSign(ANDESITE_SIGN_TEXTURE, ModBlocks.ANDESITE_SIGN));
+
+    //POLISHED ANDESITE VARIANTS
+    public static final DoorBlock POLISHED_ANDESITE_DOOR = registerWithItem(
+            "polished_andesite_door",
+            newModDoor(ModBlockSetType.STONE, Blocks.POLISHED_ANDESITE, false, 2.5f, 6));
+
+    public static final WallBlock POLISHED_ANDESITE_WALL = registerWithItem(
+            "polished_andesite_wall",
+            newModWall(Blocks.POLISHED_ANDESITE));
+
+    public static final FenceBlock POLISHED_ANDESITE_FENCE = registerWithItem(
+            "polished_andesite_fence",
+            newModFence(Blocks.POLISHED_ANDESITE, 1.5f, 6, BlockSoundGroup.STONE));
+
+    public static final FenceGateBlock POLISHED_ANDESITE_FENCE_GATE = registerWithItem(
+            "polished_andesite_fence_gate",
+            newModFenceGate(ModWoodType.STONE, Blocks.POLISHED_ANDESITE, 1.5f, 6));
+
+    public static final TrapdoorBlock POLISHED_ANDESITE_TRAPDOOR = registerWithItem(
+            "polished_andesite_trapdoor",
+            newModTrapdoor(ModBlockSetType.STONE, Blocks.POLISHED_ANDESITE, 2.5f, 6));
+
+    public static final PressurePlateBlock POLISHED_ANDESITE_PRESSURE_PLATE = registerWithItem(
+            "polished_andesite_pressure_plate",
+            newModPressurePlate(ModBlockSetType.STONE, Blocks.POLISHED_ANDESITE));
+
+    public static final ButtonBlock POLISHED_ANDESITE_BUTTON = registerWithItem(
+            "polished_andesite_button",
+            newModButton(ModBlockSetType.STONE, 20, Blocks.POLISHED_ANDESITE));
+
+    public static final Identifier POLISHED_ANDESITE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/polished_andesite");
+
+    public static final TerraformSignBlock POLISHED_ANDESITE_SIGN = register(
+            "polished_andesite_sign",
+            newModSign(POLISHED_ANDESITE_SIGN_TEXTURE, Blocks.POLISHED_ANDESITE, 1.5f, 2, BlockSoundGroup.STONE));
+
+    public static final TerraformWallSignBlock POLISHED_ANDESITE_WALL_SIGN = register(
+            "polished_andesite_wall_sign",
+            newModWallSign(POLISHED_ANDESITE_SIGN_TEXTURE, ModBlocks.POLISHED_ANDESITE_SIGN));
 
     //SWAGGIEST VARIANTS EVER
     public static final DoorBlock NETHERITE_DOOR = registerWithItem(
