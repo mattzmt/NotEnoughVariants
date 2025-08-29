@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "not_enough_variants:block/polished_granite_trapdoor"
+  }
+}

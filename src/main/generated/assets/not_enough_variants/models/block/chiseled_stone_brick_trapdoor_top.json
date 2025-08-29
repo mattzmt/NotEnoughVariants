@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "not_enough_variants:block/chiseled_stone_brick_trapdoor"
+  }
+}
