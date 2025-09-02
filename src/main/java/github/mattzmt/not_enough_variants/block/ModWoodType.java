@@ -25,6 +25,15 @@ public class ModWoodType {
             SoundEvents.BLOCK_LEVER_CLICK
     );
 
+    public static final WoodType DEEPSLATE = new WoodType(
+            NotEnoughVariants.id("deepslate").toString(),
+            ModBlockSetType.DEEPSLATE,
+            BlockSoundGroup.DEEPSLATE,
+            BlockSoundGroup.HANGING_SIGN,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK
+    );
+
     public static final WoodType NETHERITE = new WoodType(
             NotEnoughVariants.id("netherite").toString(),
             ModBlockSetType.NETHERITE,

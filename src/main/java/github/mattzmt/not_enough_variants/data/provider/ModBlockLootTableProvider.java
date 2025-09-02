@@ -15,6 +15,9 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        addDrop(ModBlocks.OAK_LOG_STAIRS);
+        addDrop(ModBlocks.OAK_LOG_SLAB, slabDrops(ModBlocks.OAK_LOG_SLAB));
+
         addDrop(ModBlocks.NETHERRACK_DOOR, doorDrops(ModBlocks.NETHERRACK_DOOR));
         addDrop(ModBlocks.NETHERRACK_WALL);
         addDrop(ModBlocks.NETHERRACK_FENCE);
@@ -165,6 +168,18 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLISHED_ANDESITE_BUTTON);
         addDrop(ModBlocks.POLISHED_ANDESITE_SIGN, ModItems.POLISHED_ANDESITE_SIGN);
         addDrop(ModBlocks.POLISHED_ANDESITE_WALL_SIGN, ModItems.POLISHED_ANDESITE_SIGN);
+
+        /*addDrop(ModBlocks.DEEPSLATE_DOOR, doorDrops(ModBlocks.DEEPSLATE_DOOR));
+        addDrop(ModBlocks.DEEPSLATE_WALL);
+        addDrop(ModBlocks.DEEPSLATE_FENCE);
+        addDrop(ModBlocks.DEEPSLATE_FENCE_GATE);
+        addDrop(ModBlocks.DEEPSLATE_STAIRS);
+        addDrop(ModBlocks.DEEPSLATE_SLAB, slabDrops(ModBlocks.DEEPSLATE_SLAB));
+        addDrop(ModBlocks.DEEPSLATE_TRAPDOOR);
+        addDrop(ModBlocks.DEEPSLATE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEEPSLATE_BUTTON);
+        addDrop(ModBlocks.DEEPSLATE_SIGN, ModItems.DEEPSLATE_SIGN);
+        addDrop(ModBlocks.DEEPSLATE_WALL_SIGN, ModItems.DEEPSLATE_SIGN);*/
 
         addDrop(ModBlocks.NETHERITE_DOOR, doorDrops(ModBlocks.NETHERITE_DOOR));
         addDrop(ModBlocks.NETHERITE_WALL);

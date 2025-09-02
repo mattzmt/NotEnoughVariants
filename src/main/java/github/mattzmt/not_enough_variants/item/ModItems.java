@@ -120,6 +120,13 @@ public class ModItems {
                             .maxCount(16),
                     ModBlocks.POLISHED_ANDESITE_SIGN, ModBlocks.POLISHED_ANDESITE_WALL_SIGN));
 
+    /*public static final SignItem DEEPSLATE_SIGN = register(
+            "deepslate_sign",
+            new SignItem(
+                    new Item.Settings()
+                            .maxCount(16),
+                    ModBlocks.DEEPSLATE_SIGN, ModBlocks.DEEPSLATE_WALL_SIGN));*/
+
     public static final SignItem NETHERITE_SIGN = register(
             "netherite_sign",
             new SignItem(

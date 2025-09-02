@@ -14,6 +14,14 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    //OAK LOG VARIANTS
+    public static final StairsBlock OAK_LOG_STAIRS = registerWithItem(
+            "oak_log_stairs",
+            newModStairs(Blocks.OAK_STAIRS));
+
+    public static final SlabBlock OAK_LOG_SLAB = registerWithItem(
+            "oak_log_slab",
+            newModSlab(Blocks.OAK_LOG, 3, 2, BlockSoundGroup.WOOD));
 
     //NETHERRACK VARIANTS
     public static final DoorBlock NETHERRACK_DOOR = registerWithItem(
@@ -136,7 +144,7 @@ public class ModBlocks {
     public static final FenceBlock GRANITE_FENCE = registerWithItem(
             "granite_fence",
             newModFence(Blocks.GRANITE, 1.5f, 6, BlockSoundGroup.STONE));
-    
+
     public static final FenceGateBlock GRANITE_FENCE_GATE = registerWithItem(
             "granite_fence_gate",
             newModFenceGate(ModWoodType.STONE, Blocks.GRANITE, 1.5f, 6));
@@ -232,9 +240,9 @@ public class ModBlocks {
     public static final ButtonBlock MOSSY_COBBLESTONE_BUTTON = registerWithItem(
             "mossy_cobblestone_button",
             newModButton(ModBlockSetType.STONE, 25, Blocks.MOSSY_COBBLESTONE));
-    
+
     public static final Identifier MOSSY_COBBLESTONE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/mossy_cobblestone");
-    
+
     public static final TerraformSignBlock MOSSY_COBBLESTONE_SIGN = register(
             "mossy_cobblestone_sign",
             newModSign(MOSSY_COBBLESTONE_SIGN_TEXTURE, Blocks.MOSSY_COBBLESTONE, 2, BlockSoundGroup.STONE));
@@ -306,7 +314,7 @@ public class ModBlocks {
     public static final PressurePlateBlock STONE_BRICK_PRESSURE_PLATE = registerWithItem(
             "stone_brick_pressure_plate",
             newModPressurePlate(ModBlockSetType.STONE, Blocks.STONE_BRICKS));
-    
+
     public static final ButtonBlock STONE_BRICK_BUTTON = registerWithItem(
             "stone_brick_button",
             newModButton(ModBlockSetType.STONE, 20, Blocks.STONE_BRICKS));
@@ -637,6 +645,54 @@ public class ModBlocks {
             "polished_andesite_wall_sign",
             newModWallSign(POLISHED_ANDESITE_SIGN_TEXTURE, ModBlocks.POLISHED_ANDESITE_SIGN));
 
+    //DEEPSLATE VARIANTS
+    /*public static final DoorBlock DEEPSLATE_DOOR = registerWithItem(
+            "deepslate_door",
+            newModDoor(ModBlockSetType.DEEPSLATE, Blocks.DEEPSLATE, true, 4, 6));
+
+    public static final WallBlock DEEPSLATE_WALL = registerWithItem(
+            "deepslate_wall",
+            newModWall(Blocks.DEEPSLATE));
+
+    public static final FenceBlock DEEPSLATE_FENCE = registerWithItem(
+            "deepslate_fence",
+            newModFence(Blocks.DEEPSLATE, 3, 6, BlockSoundGroup.DEEPSLATE));
+
+    public static final FenceGateBlock DEEPSLATE_FENCE_GATE = registerWithItem(
+            "deepslate_fence_gate",
+            newModFenceGate(ModWoodType.DEEPSLATE, Blocks.DEEPSLATE, 3, 6));
+
+    public static final StairsBlock DEEPSLATE_STAIRS = registerWithItem(
+            "deepslate_stairs",
+            newModStairs(Blocks.DEEPSLATE));
+
+    public static final SlabBlock DEEPSLATE_SLAB = registerWithItem(
+            "deepslate_slab",
+            newModSlab(Blocks.DEEPSLATE, 3.5f, 6, BlockSoundGroup.DEEPSLATE));
+
+    public static final TrapdoorBlock DEEPSLATE_TRAPDOOR = registerWithItem(
+            "deepslate_trapdoor",
+            newModTrapdoor(ModBlockSetType.DEEPSLATE, Blocks.DEEPSLATE, 4, 6));
+
+    public static final PressurePlateBlock DEEPSLATE_PRESSURE_PLATE = registerWithItem(
+            "deepslate_pressure_plate",
+            newModPressurePlate(ModBlockSetType.DEEPSLATE, Blocks.DEEPSLATE, 1, 0.5f));
+
+    public static final Block DEEPSLATE_BUTTON = registerWithItem(
+            "deepslate_button",
+            newModButton(ModBlockSetType.DEEPSLATE, 30, Blocks.DEEPSLATE, 1, 0.5f));
+
+    private static final Identifier DEEPSLATE_SIGN_TEXTURE = NotEnoughVariants.id("entity/signs/deepslate");
+
+    public static final TerraformSignBlock DEEPSLATE_SIGN = register(
+            "deepslate_sign",
+            newModSign(DEEPSLATE_SIGN_TEXTURE, Blocks.DEEPSLATE, 3, 2, BlockSoundGroup.DEEPSLATE));
+
+    public static final TerraformWallSignBlock DEEPSLATE_WALL_SIGN = register(
+            "deepslate_wall_sign",
+            newModWallSign(DEEPSLATE_SIGN_TEXTURE, ModBlocks.DEEPSLATE_SIGN));
+     */
+
     //SWAGGIEST VARIANTS EVER
     public static final DoorBlock NETHERITE_DOOR = registerWithItem(
             "netherite_door",
@@ -804,40 +860,11 @@ public class ModBlocks {
         return new SlabBlock(settings);
     }
 
-    private static SlabBlock newModSlab(Block base, float strength, BlockSoundGroup blockSoundGroup) {
-        AbstractBlock.Settings settings = AbstractBlock.Settings.create()
-                .mapColor(base.getDefaultMapColor())
-                .instrument(base.getDefaultState().getInstrument())
-                .strength(strength)
-                .sounds(blockSoundGroup);
-
-        if (base.getDefaultState().isToolRequired())
-            settings.requiresTool();
-
-        if (base.getDefaultState().isBurnable())
-            settings.burnable();
-
-        return new SlabBlock(settings);
-    }
-
     private static TrapdoorBlock newModTrapdoor(BlockSetType blockSetType, Block base, float hardness, float resistance) {
         AbstractBlock.Settings settings = AbstractBlock.Settings.create()
                 .mapColor(base.getDefaultMapColor())
                 .instrument(base.getDefaultState().getInstrument())
                 .strength(hardness, resistance)
-                .allowsSpawning(Blocks::never);
-
-        if (base.getDefaultState().isToolRequired())
-            settings.requiresTool();
-
-        return new TrapdoorBlock(blockSetType, settings);
-    }
-
-    private static TrapdoorBlock newModTrapdoor(BlockSetType blockSetType, Block base, float strength) {
-        AbstractBlock.Settings settings = AbstractBlock.Settings.create()
-                .mapColor(base.getDefaultMapColor())
-                .instrument(base.getDefaultState().getInstrument())
-                .strength(strength)
                 .allowsSpawning(Blocks::never);
 
         if (base.getDefaultState().isToolRequired())

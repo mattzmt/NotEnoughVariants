@@ -34,6 +34,7 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.POLISHED_DIORITE_DOOR.asItem())
                 .add(ModBlocks.ANDESITE_DOOR.asItem())
                 .add(ModBlocks.POLISHED_ANDESITE_DOOR.asItem())
+                //.add(ModBlocks.DEEPSLATE_DOOR.asItem())
                 .add(ModBlocks.NETHERITE_DOOR.asItem());
 
         getOrCreateTagBuilder(ItemTags.WALLS)
@@ -56,6 +57,7 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.POLISHED_GRANITE_WALL.asItem())
                 .add(ModBlocks.POLISHED_DIORITE_WALL.asItem())
                 .add(ModBlocks.POLISHED_ANDESITE_WALL.asItem())
+                //.add(ModBlocks.DEEPSLATE_WALL.asItem())
                 .add(ModBlocks.NETHERITE_WALL.asItem());
 
         getOrCreateTagBuilder(ItemTags.SIGNS)
@@ -74,6 +76,7 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModItems.POLISHED_DIORITE_SIGN)
                 .add(ModItems.ANDESITE_SIGN)
                 .add(ModItems.POLISHED_ANDESITE_SIGN)
+                //.add(ModItems.DEEPSLATE_SIGN)
                 .add(ModItems.NETHERITE_SIGN);
 
         getOrCreateTagBuilder(ItemTags.FENCES)
@@ -92,6 +95,7 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.POLISHED_DIORITE_FENCE.asItem())
                 .add(ModBlocks.ANDESITE_FENCE.asItem())
                 .add(ModBlocks.POLISHED_ANDESITE_FENCE.asItem())
+                //.add(ModBlocks.DEEPSLATE_FENCE.asItem())
                 .add(ModBlocks.NETHERITE_FENCE.asItem());
 
         getOrCreateTagBuilder(ItemTags.FENCE_GATES)
@@ -110,19 +114,24 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.POLISHED_DIORITE_FENCE_GATE.asItem())
                 .add(ModBlocks.ANDESITE_FENCE_GATE.asItem())
                 .add(ModBlocks.POLISHED_ANDESITE_FENCE_GATE.asItem())
+                //.add(ModBlocks.DEEPSLATE_FENCE_GATE.asItem())
                 .add(ModBlocks.NETHERITE_FENCE_GATE.asItem());
 
         getOrCreateTagBuilder(ItemTags.STAIRS)
+                .add(ModBlocks.OAK_LOG_STAIRS.asItem())
                 .add(ModBlocks.NETHERRACK_STAIRS.asItem())
                 .add(ModBlocks.SMOOTH_STONE_STAIRS.asItem())
                 .add(ModBlocks.CRACKED_STONE_BRICK_STAIRS.asItem())
                 .add(ModBlocks.CHISELED_STONE_BRICK_STAIRS.asItem())
+                //.add(ModBlocks.DEEPSLATE_STAIRS.asItem())
                 .add(ModBlocks.NETHERITE_STAIRS.asItem());
 
         getOrCreateTagBuilder(ItemTags.SLABS)
                 .add(ModBlocks.NETHERRACK_SLAB.asItem())
+                .add(ModBlocks.OAK_LOG_SLAB.asItem())
                 .add(ModBlocks.CRACKED_STONE_BRICK_SLAB.asItem())
                 .add(ModBlocks.CHISELED_STONE_BRICK_SLAB.asItem())
+                //.add(ModBlocks.DEEPSLATE_SLAB.asItem())
                 .add(ModBlocks.NETHERITE_SLAB.asItem());
 
         getOrCreateTagBuilder(ItemTags.TRAPDOORS)
@@ -141,6 +150,7 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.POLISHED_DIORITE_TRAPDOOR.asItem())
                 .add(ModBlocks.ANDESITE_TRAPDOOR.asItem())
                 .add(ModBlocks.POLISHED_ANDESITE_TRAPDOOR.asItem())
+                //.add(ModBlocks.DEEPSLATE_TRAPDOOR.asItem())
                 .add(ModBlocks.NETHERITE_TRAPDOOR.asItem());
 
         getOrCreateTagBuilder(ItemTags.BUTTONS)
@@ -158,6 +168,7 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
                 .add(ModBlocks.POLISHED_DIORITE_BUTTON.asItem())
                 .add(ModBlocks.ANDESITE_BUTTON.asItem())
                 .add(ModBlocks.POLISHED_ANDESITE_BUTTON.asItem())
+                //.add(ModBlocks.DEEPSLATE_BUTTON.asItem())
                 .add(ModBlocks.NETHERITE_BUTTON.asItem());
     }
 }

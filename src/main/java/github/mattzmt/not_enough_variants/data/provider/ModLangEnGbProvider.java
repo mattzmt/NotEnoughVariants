@@ -48,9 +48,13 @@ public class ModLangEnGbProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.POLISHED_DIORITE_SIGN, "Polished Diorite Sign");
         translationBuilder.add(ModItems.ANDESITE_SIGN, "Andesite Sign");
         translationBuilder.add(ModItems.POLISHED_ANDESITE_SIGN, "Polished Andesite Sign");
+        //translationBuilder.add(ModItems.DEEPSLATE_SIGN, "Deepslate Sign");
         translationBuilder.add(ModItems.NETHERITE_SIGN, "Swaggiest Sign Ever");
 
         //BLOCKS
+        translationBuilder.add(ModBlocks.OAK_LOG_STAIRS, "Oak Log Stairs");
+        translationBuilder.add(ModBlocks.OAK_LOG_SLAB, "Oak Log Slab");
+
         translationBuilder.add(ModBlocks.NETHERRACK_DOOR, "Netherrack Door");
         translationBuilder.add(ModBlocks.NETHERRACK_WALL, "Netherrack Wall");
         translationBuilder.add(ModBlocks.NETHERRACK_FENCE, "Netherrack Fence");
@@ -180,6 +184,16 @@ public class ModLangEnGbProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.POLISHED_ANDESITE_TRAPDOOR, "Polished Andesite Trapdoor");
         translationBuilder.add(ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE, "Polished Andesite Pressure Plate");
         translationBuilder.add(ModBlocks.POLISHED_ANDESITE_BUTTON, "Polished Andesite Button");
+
+        //translationBuilder.add(ModBlocks.DEEPSLATE_DOOR, "Deepslate Door");
+        //translationBuilder.add(ModBlocks.DEEPSLATE_WALL, "Deepslate Wall");
+        //translationBuilder.add(ModBlocks.DEEPSLATE_FENCE, "Deepslate Fence");
+        //translationBuilder.add(ModBlocks.DEEPSLATE_FENCE_GATE, "Deepslate Fence Gate");
+        //translationBuilder.add(ModBlocks.DEEPSLATE_STAIRS, "Deepslate Stairs");
+        //translationBuilder.add(ModBlocks.DEEPSLATE_SLAB, "Deepslate Slab");
+        //translationBuilder.add(ModBlocks.DEEPSLATE_TRAPDOOR, "Deepslate Trapdoor");
+        //translationBuilder.add(ModBlocks.DEEPSLATE_PRESSURE_PLATE, "Deepslate Pressure Plate");
+        //translationBuilder.add(ModBlocks.DEEPSLATE_BUTTON, "Deepslate Button");
 
         translationBuilder.add(ModBlocks.NETHERITE_DOOR, "Swaggiest Door Ever");
         translationBuilder.add(ModBlocks.NETHERITE_WALL, "Swaggiest Wall Ever");

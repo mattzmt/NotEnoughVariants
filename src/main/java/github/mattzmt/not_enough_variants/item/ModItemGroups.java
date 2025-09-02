@@ -16,6 +16,9 @@ public class ModItemGroups {
             .entries((displayContext, entries) -> {
                 entries.add(ModItems.BUSH_HAMMER);
 
+                entries.add(ModBlocks.OAK_LOG_STAIRS);
+                entries.add(ModBlocks.OAK_LOG_SLAB);
+
                 entries.add(ModBlocks.NETHERRACK_DOOR);
                 entries.add(ModBlocks.NETHERRACK_WALL);
                 entries.add(ModItems.NETHERRACK_SIGN);

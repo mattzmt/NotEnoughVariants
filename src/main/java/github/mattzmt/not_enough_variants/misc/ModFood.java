@@ -1,4 +1,4 @@
-package github.mattzmt.not_enough_variants.list;
+package github.mattzmt.not_enough_variants.misc;
 
 public class ModFood {
     /*public static final FoodComponent KINNIE = new FoodComponent.Builder()

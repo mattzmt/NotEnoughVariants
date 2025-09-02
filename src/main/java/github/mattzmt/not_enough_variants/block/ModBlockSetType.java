@@ -39,6 +39,22 @@ public class ModBlockSetType {
             SoundEvents.BLOCK_STONE_BUTTON_CLICK_OFF,
             SoundEvents.BLOCK_STONE_BUTTON_CLICK_ON);
 
+    public static final BlockSetType DEEPSLATE = new BlockSetType(
+            NotEnoughVariants.id("deepslate").toString(),
+            true,
+            true,
+            false,
+            BlockSetType.ActivationRule.MOBS,
+            BlockSoundGroup.DEEPSLATE,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK,
+            SoundEvents.BLOCK_LEVER_CLICK);
+
     public static final BlockSetType NETHERITE = new BlockSetType(
             NotEnoughVariants.id("netherite").toString(),
             false,
